@@ -1,0 +1,10 @@
+requests>=2.32.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+anthropic>=1.0.0
+elevenlabs>=0.2.0
+pillow>=10.1.0
+numpy>=1.24.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+opencv-python>=4.8.0
