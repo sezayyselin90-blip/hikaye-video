@@ -1,11 +1,11 @@
-# YouTube Hikaye Video Otomasyon Hattı
+# YouTube Story Video Automation Pipeline
 
-Türkçe hikaye metinlerini otomatik olarak YouTube reel'ine uygun video hale dönüştüren modüler Python otomasyon sistemi.
+Automatically transform story texts into YouTube-ready videos with English voiceover and AI-generated visuals. A modular Python automation system for content creators.
 
-## 🏗️ Mimari
+## 🏗️ Architecture
 
 ```
-story.txt (girdi)
+story.txt (input)
     ↓
 1_script_splitter.py (Claude API)
     ↓ scenes.json
@@ -13,95 +13,106 @@ story.txt (girdi)
     ↓ (audio/ + images/)
 3_video_builder.py (FFmpeg + OpenCV)
     ↓
-output/rough_cut.mp4 (çıktı)
+output/rough_cut.mp4 (output)
 ```
 
-## 📦 Kurulum
+## 📦 Installation
 
-### Gereksinimler
+### Requirements
 - Python 3.9+
-- ffmpeg (sistem paketleri)
+- ffmpeg (system package)
 
-### Adım 1: Bağımlılıkları Kurma
+### Step 1: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Adım 2: Ortam Değişkenlerini Ayarlama
+### Step 2: Configure Environment
 ```bash
 cp .env.example .env
 ```
 
-Sonra `.env` dosyasında API anahtarlarını ekleyin:
+Then add your API keys to `.env`:
 ```
 ANTHROPIC_API_KEY=sk-ant-...
-ELEVENLABS_API_KEY=...
+ELEVENLABS_API_KEY=sk_...
 FAL_KEY=...
+ELEVENLABS_VOICE_ID=TxGEqnHWrfWFTfGW9XjX  (or your preferred voice)
+ELEVENLABS_LANGUAGE=en
 ```
 
-### Adım 3: ffmpeg Kurma (Linux)
+### Step 3: Install ffmpeg
+**Linux:**
 ```bash
 apt-get install ffmpeg
 ```
 
-## 🚀 Kullanım
+**macOS:**
+```bash
+brew install ffmpeg
+```
 
-### 1️⃣ Hikaye Hazırlama
-`story.txt` dosyasına Türkçe hikayenizi yazın.
+## 🚀 Usage
 
-### 2️⃣ Sahnelere Bölme
+### 1️⃣ Prepare Story
+Write your story in `story.txt` (English text)
+
+### 2️⃣ Split into Scenes
 ```bash
 python 1_script_splitter.py
 ```
-**Çıktı:** `scenes.json` (4-6 saniyelik sahneler)
+**Output:** `scenes.json` (4-6 second scenes)
 
-### 3️⃣ Ses ve Görsel Üretimi
+### 3️⃣ Generate Audio & Images
 ```bash
 python 2_assets_fetcher.py
 ```
-**Çıktı:** 
-- `output/audio/scene_*.mp3` (ElevenLabs TTS)
-- `output/images/scene_*.png` (Fal.ai Flux-dev)
+**Output:** 
+- `output/audio/scene_*.mp3` (English voiceover via ElevenLabs)
+- `output/images/scene_*.png` (AI images via Fal.ai Flux-dev)
 
-### 4️⃣ Video Kurgusu
+### 4️⃣ Build Video
 ```bash
 python 3_video_builder.py
 ```
-**Çıktı:** `output/rough_cut.mp4` (Ken Burns efekti, final video)
+**Output:** `output/rough_cut.mp4` (Ken Burns effect applied)
 
-## 📋 Dosya Açıklamaları
+## 📋 Module Descriptions
 
 ### 1_script_splitter.py
-**Görev:** Hikayeyi doğru uzunluktaki sahnelere bölme
+**Purpose:** Break story into properly-timed scenes
 
-- Claude API ile metin analizi
-- Karakteri tutarlı tanımlama
-- Türkçe voiceover metinleri
-- Flux-dev uyumlu görsel promptları
+- Claude API for text analysis
+- Consistent character descriptions
+- English voiceover text generation
+- Flux-dev compatible image prompts
 
-**Girdi:** `story.txt`
-**Çıktı:** `scenes.json`
+**Input:** `story.txt`
+**Output:** `scenes.json`
 
 ### 2_assets_fetcher.py
-**Görev:** Ses ve görsel dosyaları üretme
+**Purpose:** Generate audio and visual assets
 
-- **ElevenLabs TTS:** Doğal Türkçe seslendirme
-- **Fal.ai Flux-dev:** 16:9 görsel üretimi
-- **Demo Mode:** API key olmadan da çalışır
+- **ElevenLabs TTS:** Natural English voiceover
+  - Default voice: James (TxGEqnHWrfWFTfGW9XjX)
+  - Alternative voices: Bella, Grace, and many others
+  - Language: English (configurable)
+- **Fal.ai Flux-dev:** 16:9 image generation
+- **Demo Mode:** Works without API keys
 
-**Girdi:** `scenes.json`
-**Çıktı:** `output/audio/` + `output/images/`
+**Input:** `scenes.json`
+**Output:** `output/audio/` + `output/images/`
 
 ### 3_video_builder.py
-**Görev:** Görselleri ses sürelerine kuru, Ken Burns efekti ekleyerek birleştirme
+**Purpose:** Combine images and audio with cinematography effects
 
-- Ses süresi + görsel süresi senkronizasyonu
-- Kademeli zoom animasyonu (Ken Burns)
-- FFmpeg ile codec optimizasyonu
-- Sahne birleştirme
+- Sync visual duration to audio length
+- Ken Burns zoom effect (gradual 5% zoom)
+- FFmpeg codec optimization
+- Scene concatenation
 
-**Girdi:** `scenes.json` + `output/audio/` + `output/images/`
-**Çıktı:** `output/rough_cut.mp4`
+**Input:** `scenes.json` + `output/audio/` + `output/images/`
+**Output:** `output/rough_cut.mp4`
 
 ## 🎬 Çıktı Özellikleri
 
@@ -114,62 +125,74 @@ python 3_video_builder.py
 | Video Codec | H.264 |
 | Efekt | Ken Burns (yavaş zoom) |
 
-## ⚙️ Yapılandırma
+## ⚙️ Configuration
 
-### Ken Burns Zoom Oranı
-`3_video_builder.py`'de değiştirin:
-```python
-create_zoomed_image(..., zoom_factor=1.05)  # 1.05 = %5 zoom
+### Voice Selection
+Change `ELEVENLABS_VOICE_ID` in `.env`:
+```
+ELEVENLABS_VOICE_ID=TxGEqnHWrfWFTfGW9XjX  # James
+ELEVENLABS_LANGUAGE=en                    # English
 ```
 
-### Ses Hızı
-`2_assets_fetcher.py`'de ElevenLabs parametrelerini düzenleyin:
+### Voice Settings
+Adjust in `2_assets_fetcher.py`:
 ```python
 "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75
+    "stability": 0.5,        # 0-1: lower = more variation
+    "similarity_boost": 0.75 # 0-1: higher = closer to original
 }
 ```
 
-### Video Bitrate
-`3_video_builder.py`'de FFmpeg parametrelerini değiştirin:
+### Ken Burns Zoom Factor
+Adjust in `3_video_builder.py`:
+```python
+create_zoomed_image(..., zoom_factor=1.05)  # 1.05 = 5% zoom
+```
+
+### Video Quality
+Modify FFmpeg settings in `3_video_builder.py`:
 ```bash
--c:v libx264 -crf 23  # 23 = yüksek kalite, 51 = düşük kalite
+-c:v libx264 -crf 23  # 23=high quality, 51=low quality
 ```
 
 ## 🧪 Demo Mode
 
-API key'leri olmadan testler yapmak için:
+Test without API keys:
 ```bash
-# Script 1: Demo scenes.json üretir
+# Script 1: Generate demo scenes.json
 python 1_script_splitter.py
 
-# Script 2: Mock ses ve görsel dosyaları oluşturur
+# Script 2: Create placeholder audio & image files
 python 2_assets_fetcher.py
 
-# Script 3: Video-only video üretir (ses olmadan)
+# Script 3: Build video-only (no audio) output
 python 3_video_builder.py
 ```
 
-## 🐛 Sorun Giderme
+All three scripts work in demo mode, creating a complete end-to-end test of the pipeline.
+
+## 🐛 Troubleshooting
 
 ### "ffmpeg: command not found"
 ```bash
 apt-get install ffmpeg  # Linux
 brew install ffmpeg     # macOS
+choco install ffmpeg    # Windows (with Chocolatey)
 ```
 
 ### "ANTHROPIC_API_KEY invalid"
-- `.env` dosyasında geçerli key kontrol edin
-- Demo mode çalışacaktır (sabit scena)
+- Verify valid key in `.env`
+- Demo mode will still work with preset scenes
 
 ### "ElevenLabs API error"
-- API key ve kredi limitini kontrol edin
-- Demo mode ses dosyaları boş oluşturur
+- Check API key and account credits
+- Demo mode creates empty audio files (playback requires real audio)
+- Verify language is set to `en` in `.env`
 
 ### "Fal.ai API error"
-- FAL_KEY kontrol edin
-- Demo mode placeholder görseller oluşturur
+- Verify FAL_KEY in `.env`
+- Demo mode generates placeholder images
+- Check Fal.ai account quota
 
 ## 📊 Örnek Çıktı
 
@@ -189,45 +212,52 @@ brew install ffmpeg     # macOS
   📁 Çıktı: output/rough_cut.mp4
 ```
 
-## 🔧 API Anahtarları
+## 🔧 API Keys
 
 ### Anthropic (Claude API)
-- **Kayıt:** https://console.anthropic.com/
+- **Sign up:** https://console.anthropic.com/
 - **Model:** claude-3-5-sonnet-20241022
-- **Kullanım:** Hikaye analizi ve skenaryolaştırma
+- **Usage:** Story analysis and scene generation
 
-### ElevenLabs (TTS)
-- **Kayıt:** https://elevenlabs.io/
-- **Model:** eleven_monolingual_v1
-- **Dil:** Türkçe destekli
-- **Voice ID:** 21m00Tcm4TlvDq8ikWAM (Aylin)
+### ElevenLabs (Text-to-Speech)
+- **Sign up:** https://elevenlabs.io/
+- **Model:** eleven_multilingual_v2
+- **Language:** English
+- **Available Voices:**
+  - `TxGEqnHWrfWFTfGW9XjX` - James (default)
+  - `EXAVITQu4vr4xnSDxMaL` - Bella
+  - `21m00Tcm4TlvDq8ikWAM` - Grace
+  - See https://elevenlabs.io/voice-lab for all voices
 
 ### Fal.ai (Image Generation)
-- **Kayıt:** https://fal.ai/
-- **Model:** Flux-dev / Flux-schnell
+- **Sign up:** https://fal.ai/
+- **Model:** Flux-dev (high quality) or Flux-schnell (fast)
 - **Format:** 16:9 (1920x1080)
 
-## 📝 Örnek Hikaye
+## 📝 Example Story
 
-`story.txt` örneği:
+The `story.txt` file should contain narrative text in English. Example:
 ```
-Bir gün, genç ve meraklı bir maceraperest olan Aylin, eski bir haritanın 
-izini takip ederek gizli bir ormana gitti. Ormanın derinliklerinde, 
-parlayan kristal bir kulenin tepesinden çıkan ışık ona yol gösteriyordu...
+Under a concrete train bridge on Chicago's South Side, a sharp-dressed 
+lawyer named Marcus pulled up in a black Cadillac every morning. Nobody 
+understood why he took the pocket change from a homeless veteran called 
+Silent Joe. Until the shocking truth emerged...
 ```
 
-## 🎯 Geliştirme
+## 🎯 Development
 
-### Planlanan Özellikler
-- [ ] Background müzik ekleme
-- [ ] Altyazı (SRT) üretimi
-- [ ] Fade-in/fade-out efektleri
-- [ ] Multi-character voiceover
-- [ ] Thumbnail otomatik üretimi
-- [ ] YouTube upload entegrasyonu
+### Planned Features
+- [ ] Background music integration
+- [ ] Subtitle (SRT) generation
+- [ ] Fade-in/fade-out effects
+- [ ] Multi-character English voiceover
+- [ ] Automatic thumbnail generation
+- [ ] Direct YouTube upload integration
+- [ ] Chapter markers for long-form content
+- [ ] Emotion-based voice pitch adjustment
 
-### Katkıda Bulunma
-PR'lar ve issue'lar hoş geldiniz!
+### Contributing
+Pull requests and issues welcome!
 
 ## 📄 Lisans
 

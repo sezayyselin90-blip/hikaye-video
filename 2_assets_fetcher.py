@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Ses ve Görsel İndirici: ElevenLabs ve Fal.ai API'lerini kullanarak
-her sahne için ses ve görsel üretiyor.
+Audio & Image Fetcher: Generates English voiceover and AI images
+using ElevenLabs and Fal.ai APIs for each scene.
 """
 
 import json
@@ -16,7 +16,8 @@ from io import BytesIO
 load_dotenv()
 
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
-ELEVENLABS_VOICE_ID = os.getenv("ELEVENLABS_VOICE_ID", "21m00Tcm4TlvDq8ikWAM")
+ELEVENLABS_VOICE_ID = os.getenv("ELEVENLABS_VOICE_ID", "TxGEqnHWrfWFTfGW9XjX")
+ELEVENLABS_LANGUAGE = os.getenv("ELEVENLABS_LANGUAGE", "en")
 FAL_KEY = os.getenv("FAL_KEY")
 
 def load_scenes(scenes_path: str = "scenes.json") -> dict:
@@ -24,9 +25,9 @@ def load_scenes(scenes_path: str = "scenes.json") -> dict:
         return json.load(f)
 
 def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOICE_ID) -> bool:
-    """ElevenLabs API ile ses üretiyor"""
+    """Generate English voiceover using ElevenLabs API"""
     if not ELEVENLABS_API_KEY or ELEVENLABS_API_KEY == "your_elevenlabs_key_here":
-        print(f"  ⚠️  ElevenLabs API key ayarlanmadı (scene_{scene_id}.mp3 simüle ediliyor)")
+        print(f"  ⚠️  ElevenLabs API key not configured (simulating scene_{scene_id}.mp3)")
         output_path = f"output/audio/scene_{scene_id}.mp3"
         Path(output_path).parent.mkdir(parents=True, exist_ok=True)
         Path(output_path).touch()
@@ -40,7 +41,8 @@ def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOIC
         }
         payload = {
             "text": text,
-            "model_id": "eleven_monolingual_v1",
+            "model_id": "eleven_multilingual_v2",
+            "language_code": ELEVENLABS_LANGUAGE,
             "voice_settings": {
                 "stability": 0.5,
                 "similarity_boost": 0.75
@@ -59,13 +61,13 @@ def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOIC
         return True
 
     except Exception as e:
-        print(f"  ⚠️  ElevenLabs hatası (scene_{scene_id}): {e}")
+        print(f"  ⚠️  ElevenLabs error (scene_{scene_id}): {e}")
         return False
 
 def generate_image(prompt: str, scene_id: int) -> bool:
-    """Fal.ai (Flux-dev) API ile görsel üretiyor"""
+    """Generate images using Fal.ai Flux-dev API"""
     if not FAL_KEY or FAL_KEY == "your_fal_key_here":
-        print(f"  ⚠️  Fal.ai API key ayarlanmadı (scene_{scene_id}.png simüle ediliyor)")
+        print(f"  ⚠️  Fal.ai API key not configured (simulating scene_{scene_id}.png)")
         output_path = f"output/images/scene_{scene_id}.png"
         Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
@@ -103,42 +105,42 @@ def generate_image(prompt: str, scene_id: int) -> bool:
 
             return True
         else:
-            print(f"  ⚠️  Fal.ai'den beklenmeyen yanıt (scene_{scene_id})")
+            print(f"  ⚠️  Unexpected response from Fal.ai (scene_{scene_id})")
             return False
 
     except Exception as e:
-        print(f"  ⚠️  Fal.ai hatası (scene_{scene_id}): {e}")
+        print(f"  ⚠️  Fal.ai error (scene_{scene_id}): {e}")
         return False
 
 def fetch_all_assets():
-    """Tüm sahneler için ses ve görsel üretiyor"""
-    print("📦 Sahne verileri yükleniyor...")
+    """Generate audio and visual assets for all scenes"""
+    print("📦 Loading scene data...")
     scenes_data = load_scenes()
     scenes = scenes_data['scenes']
     character_desc = scenes_data['character_description']
 
-    print(f"✓ {len(scenes)} sahne yüklendi\n")
-    print(f"🎨 Karakter: {character_desc}\n")
+    print(f"✓ Loaded {len(scenes)} scenes\n")
+    print(f"🎨 Character: {character_desc}\n")
 
     for scene in scenes:
         scene_id = scene['scene_id']
         voiceover = scene['voiceover_text']
         image_prompt = scene['image_prompt']
 
-        print(f"📍 Sahne {scene_id}/{len(scenes)}:")
+        print(f"📍 Scene {scene_id}/{len(scenes)}:")
 
-        print(f"  🎤 Seslendirme üretiliyor...")
+        print(f"  🎤 Generating voiceover (English)...")
         generate_voiceover(voiceover, scene_id)
 
-        print(f"  🖼️  Görsel üretiliyor...")
+        print(f"  🖼️  Generating image...")
         generate_image(f"{character_desc}. {image_prompt}", scene_id)
 
         time.sleep(1)
         print()
 
-    print("✓ Tüm assetler hazır!")
-    print(f"  - Ses dosyaları: output/audio/scene_*.mp3")
-    print(f"  - Görsel dosyaları: output/images/scene_*.png")
+    print("✓ All assets ready!")
+    print(f"  - Audio files: output/audio/scene_*.mp3")
+    print(f"  - Image files: output/images/scene_*.png")
 
 if __name__ == "__main__":
     fetch_all_assets()
