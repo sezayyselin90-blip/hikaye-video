@@ -24,10 +24,11 @@ def load_scenes(scenes_path: str = "scenes.json") -> dict:
     with open(scenes_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOICE_ID) -> bool:
-    """Generate English voiceover using ElevenLabs API"""
+def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOICE_ID, speaker: str = None) -> bool:
+    """Generate English voiceover with character-specific voice"""
     if not ELEVENLABS_API_KEY or ELEVENLABS_API_KEY == "your_elevenlabs_key_here":
-        print(f"  ⚠️  ElevenLabs API key not configured (simulating scene_{scene_id}.mp3)")
+        speaker_label = f" ({speaker})" if speaker else ""
+        print(f"  ⚠️  ElevenLabs API key not configured (simulating scene_{scene_id}.mp3{speaker_label})")
         output_path = f"output/audio/scene_{scene_id}.mp3"
         Path(output_path).parent.mkdir(parents=True, exist_ok=True)
         Path(output_path).touch()
@@ -61,7 +62,8 @@ def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOIC
         return True
 
     except Exception as e:
-        print(f"  ⚠️  ElevenLabs error (scene_{scene_id}): {e}")
+        speaker_label = f" ({speaker})" if speaker else ""
+        print(f"  ⚠️  ElevenLabs error (scene_{scene_id}{speaker_label}): {e}")
         return False
 
 def generate_image(prompt: str, scene_id: int) -> bool:
@@ -118,19 +120,33 @@ def fetch_all_assets():
     scenes_data = load_scenes()
     scenes = scenes_data['scenes']
     character_desc = scenes_data['character_description']
+    characters = scenes_data.get('characters', {})
 
     print(f"✓ Loaded {len(scenes)} scenes\n")
-    print(f"🎨 Character: {character_desc}\n")
+    print(f"🎨 Characters: {character_desc}\n")
+
+    if characters:
+        print("🎙️  Multi-Character Voices:")
+        for char_name, char_info in characters.items():
+            voice_name = char_info.get('voice_name', 'Unknown')
+            print(f"  • {char_name}: {voice_name}")
+        print()
 
     for scene in scenes:
         scene_id = scene['scene_id']
         voiceover = scene['voiceover_text']
         image_prompt = scene['image_prompt']
+        speaker = scene.get('speaker', 'Narrator')
 
         print(f"📍 Scene {scene_id}/{len(scenes)}:")
 
-        print(f"  🎤 Generating voiceover (English)...")
-        generate_voiceover(voiceover, scene_id)
+        # Get voice for speaker
+        voice_id = ELEVENLABS_VOICE_ID
+        if characters and speaker in characters:
+            voice_id = characters[speaker].get('voice_id', ELEVENLABS_VOICE_ID)
+
+        print(f"  🎤 Generating voiceover ({speaker})...")
+        generate_voiceover(voiceover, scene_id, voice_id=voice_id, speaker=speaker)
 
         print(f"  🖼️  Generating image...")
         generate_image(f"{character_desc}. {image_prompt}", scene_id)
@@ -139,7 +155,7 @@ def fetch_all_assets():
         print()
 
     print("✓ All assets ready!")
-    print(f"  - Audio files: output/audio/scene_*.mp3")
+    print(f"  - Audio files: output/audio/scene_*.mp3 (multi-character)")
     print(f"  - Image files: output/images/scene_*.png")
 
 if __name__ == "__main__":

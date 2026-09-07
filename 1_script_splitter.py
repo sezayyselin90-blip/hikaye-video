@@ -17,48 +17,70 @@ def load_story(story_path: str) -> str:
         return f.read()
 
 def split_into_scenes(story: str) -> dict:
-    """Claude API'yi kullanarak hikayeyi sahnelere bölüyor"""
+    """Split story into scenes with character voice assignments"""
     api_key = os.getenv("ANTHROPIC_API_KEY")
 
     if not api_key or api_key == "your_anthropic_key_here":
-        print("  ⚠️  DEMO MODE: Gerçek API key yok, demo scenes oluşturuluyor...\n")
+        print("  ⚠️  DEMO MODE: No real API key, generating demo scenes...\n")
         return create_demo_scenes()
 
     client = Anthropic(api_key=api_key)
 
-    system_prompt = """Sen deneyimli bir Film Senaristisisin. Görevin:
-1. Verilen hikayeyi 4-6 saniye uzunluğunda sahne açıklamalarına bölmek
-2. Her sahne için voiceover metni hazırlamak
-3. Her sahne için görsel prompt yazması (Flux-dev için uygun)
-4. Ana karakterin tutarlı tanımını korumak
+    system_prompt = """You are an experienced screenplay writer. Your tasks:
+1. Break the story into 4-6 second scene descriptions
+2. Generate voiceover text for each scene
+3. Create visual prompts for each scene (Flux-dev compatible)
+4. Identify all characters with dialogue
+5. Maintain consistent character descriptions
 
-ANA KARİKTER:
-- Adı: Aylin
-- Yaş: 25 yaşında, genç ve meraklı
-- Görünüş: Uzun kahverengi saçlar, yeşil gözler, hafif bir tebessümü var
-- Kıyafet: Maceraperest ruhuna uygun, yolculuk kıyafetleri giyiyor
-- Kişilik: Cesur, meraklı, sevgi dolu, kahraman
+CHARACTER VOICE ASSIGNMENT:
+- Detect each unique character who speaks
+- Assign a distinct voice from available options
+- Characters without dialogue = narrator (James)
 
-Çıktı KESINLIKLE bu JSON formatında olmalı:
+Available ElevenLabs English Voices:
+- James (TxGEqnHWrfWFTfGW9XjX): Deep, professional, storyteller
+- Bella (EXAVITQu4vr4xnSDxMaL): Warm female voice, conversational
+- Grace (21m00Tcm4TlvDq8ikWAM): Clear female voice, authoritative
+- Rachel (21m00Tcm4TlvDq8ikWAM): Young female voice, energetic
+
+OUTPUT MUST BE EXACTLY THIS JSON FORMAT:
 {
-  "character_description": "Aylin'in tutarlı tanımı",
+  "character_description": "Main character and all key characters",
+  "characters": {
+    "Character Name": {
+      "voice_id": "TxGEqnHWrfWFTfGW9XjX",
+      "voice_name": "James",
+      "description": "Physical description and role"
+    }
+  },
   "scenes": [
     {
       "scene_id": 1,
       "duration_seconds": 5,
-      "voiceover_text": "Türkçe voiceover metni (4-6 saniye okuma süresi)",
-      "image_prompt": "16:9 görsel prompt (Flux-dev/Flux-schnell için uygun)"
+      "voiceover_text": "English voiceover text (4-6 second reading time)",
+      "speaker": "Character Name or Narrator",
+      "image_prompt": "16:9 visual prompt for Flux-dev"
     }
   ]
 }
 
-Not: Voiceover metni okuması 4-6 saniye sürecek şekilde olmalı."""
+Notes:
+- Voiceover text should take 4-6 seconds to read aloud
+- "speaker" indicates who is speaking in that scene
+- Same character = same voice throughout (consistency)
+- Narrator = James voice for non-dialogue text"""
 
-    user_message = f"""Aşağıdaki hikayeyi sahnelere böl:
+    user_message = f"""Break this story into scenes with character voices:
 
 {story}
 
-Döndür: Geçerli JSON formatında scenes.json çıktısı."""
+Instructions:
+1. Identify all characters who speak
+2. Assign each a unique English voice (consistency across scenes)
+3. Include speaker name in each scene
+4. Narrator (non-dialogue) = James voice
+5. Return valid JSON with character voice mapping"""
 
     try:
         response = client.messages.create(
@@ -89,33 +111,54 @@ Döndür: Geçerli JSON formatında scenes.json çıktısı."""
         return create_demo_scenes()
 
 def create_demo_scenes() -> dict:
-    """Demo sahneleri oluşturuyor (API olmadan test için)"""
+    """Generate demo scenes for testing (without API)"""
     return {
-        "character_description": "Aylin: 25 yaşında, uzun kahverengi saçlar, yeşil gözler, maceraperest ve cesur bir karakterdir.",
+        "character_description": "Marcus: Sharp-dressed lawyer. Joseph 'Silent Joe': Elderly homeless veteran. Ray: Angry shopkeeper.",
+        "characters": {
+            "Narrator": {
+                "voice_id": "TxGEqnHWrfWFTfGW9XjX",
+                "voice_name": "James",
+                "description": "Professional narrator voice"
+            },
+            "Marcus": {
+                "voice_id": "EXAVITQu4vr4xnSDxMaL",
+                "voice_name": "Bella",
+                "description": "Lawyer with calm, determined tone"
+            },
+            "Ray": {
+                "voice_id": "21m00Tcm4TlvDq8ikWAM",
+                "voice_name": "Grace",
+                "description": "Angry shopkeeper, aggressive tone"
+            }
+        },
         "scenes": [
             {
                 "scene_id": 1,
                 "duration_seconds": 5,
-                "voiceover_text": "Bir gün, genç ve meraklı maceraperest Aylin, eski bir haritanın izini takip ederek gizli bir ormana gitti.",
-                "image_prompt": "Ancient mystical forest with glowing light in the distance, detailed environment"
+                "voiceover_text": "Under a concrete Chicago train bridge, Ray grabbed Marcus violently by his Italian suit collar. Buttons scattered across muddy asphalt.",
+                "speaker": "Narrator",
+                "image_prompt": "Tense confrontation under concrete train bridge, angry shopkeeper grabbing lawyer, crowd forming"
             },
             {
                 "scene_id": 2,
                 "duration_seconds": 5,
-                "voiceover_text": "Ormanın derinliklerinde, parlayan kristal bir kulenin tepesinden çıkan ışık ona yol gösteriyordu.",
-                "image_prompt": "Crystal tower glowing in dark forest at night, magical atmosphere"
+                "voiceover_text": "Ray shouted: You think you can rob this helpless mute man every morning? Wearing a thousand-dollar suit while you steal from the homeless!",
+                "speaker": "Ray",
+                "image_prompt": "Angry crowd gathering, phone cameras, rage and tension, urban scene"
             },
             {
                 "scene_id": 3,
                 "duration_seconds": 5,
-                "voiceover_text": "Kulenin kapısına varınca, bir ejderhayı andıran varlık onu selamladı ve yardımcı olmak istedi.",
-                "image_prompt": "Dragon-like guardian creature at tower entrance, mystical lighting"
+                "voiceover_text": "Marcus remained eerily calm. He said: Before you judge me, open my car trunk. Inside is a black briefcase with code one-nine-nine-four.",
+                "speaker": "Marcus",
+                "image_prompt": "Police arriving, black Cadillac, briefcase revelation moment"
             },
             {
                 "scene_id": 4,
                 "duration_seconds": 6,
-                "voiceover_text": "Aylin dört odadan oluşan bir labirentten geçti, her biri farklı bir engelle karşılaştı.",
-                "image_prompt": "Magical labyrinth with four distinct chambers, glowing pathways"
+                "voiceover_text": "Inside were thousands of court documents. Officer Miller's expression changed. Marcus revealed the shocking truth.",
+                "speaker": "Narrator",
+                "image_prompt": "Official court documents, legal victory, justice imagery"
             }
         ]
     }

@@ -93,15 +93,17 @@ python 3_video_builder.py
 ### 2_assets_fetcher.py
 **Purpose:** Generate audio and visual assets
 
-- **ElevenLabs TTS:** Natural English voiceover
-  - Default voice: James (TxGEqnHWrfWFTfGW9XjX)
-  - Alternative voices: Bella, Grace, and many others
+- **ElevenLabs TTS:** Natural English voiceover with **multi-character voices**
+  - Automatic character detection and voice assignment
+  - Default narrator: James (TxGEqnHWrfWFTfGW9XjX)
+  - Alternative character voices: Bella, Grace, Rachel, and many others
+  - Each character maintains consistent voice throughout
   - Language: English (configurable)
 - **Fal.ai Flux-dev:** 16:9 image generation
 - **Demo Mode:** Works without API keys
 
-**Input:** `scenes.json`
-**Output:** `output/audio/` + `output/images/`
+**Input:** `scenes.json` (with character voice mappings)
+**Output:** `output/audio/` + `output/images/` (character-specific voicesovers)
 
 ### 3_video_builder.py
 **Purpose:** Combine images and audio with cinematography effects
@@ -113,6 +115,62 @@ python 3_video_builder.py
 
 **Input:** `scenes.json` + `output/audio/` + `output/images/`
 **Output:** `output/rough_cut.mp4`
+
+## 🎙️ Multi-Character Voice System
+
+The pipeline automatically generates **distinct voices for different characters** in your story:
+
+### How It Works
+
+1. **Character Detection** - Claude API identifies all characters with dialogue
+2. **Voice Assignment** - Each character gets a unique ElevenLabs voice
+3. **Consistency** - Same character = same voice throughout the video
+4. **Speaker Attribution** - Each scene indicates who is speaking
+
+### Available Voices
+
+| Voice | Type | Best For |
+|-------|------|----------|
+| **James** | Deep male | Narrator, authority figures |
+| **Bella** | Warm female | Main character, emotional scenes |
+| **Grace** | Assertive female | Strong characters, professionals |
+| **Rachel** | Young female | Young characters, action scenes |
+
+### Example: Multi-Character Story
+
+When you run the pipeline on a story with dialogue:
+
+```bash
+python 1_script_splitter.py  # Detects: Marcus (lawyer), Ray (shopkeeper), Narrator
+python 2_assets_fetcher.py   # Assigns: Bella voice, Grace voice, James voice
+```
+
+Output shows:
+```
+🎙️ Multi-Character Voices:
+  • Narrator: James
+  • Marcus: Bella
+  • Ray: Grace
+```
+
+Then generates audio with the correct voice for each character's lines.
+
+### Manual Voice Configuration
+
+You can customize character voices by editing `scenes.json`:
+
+```json
+{
+  "characters": {
+    "Marcus": {
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "voice_name": "Bella"
+    }
+  }
+}
+```
+
+See [VOICE_CONFIG.md](VOICE_CONFIG.md) for complete voice options and customization guide.
 
 ## 🎬 Çıktı Özellikleri
 
