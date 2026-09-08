@@ -49,6 +49,14 @@ def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOIC
             }
         }
 
+        # Debug first request
+        if scene_id == 1:
+            import json as json_module
+            print(f"  🔧 DEBUG - ElevenLabs Request:")
+            print(f"     URL: {url}")
+            print(f"     Headers: xi-api-key={ELEVENLABS_API_KEY[:10]}..., Content-Type=application/json")
+            print(f"     Payload: {json_module.dumps(payload, indent=6)}")
+
         response = requests.post(url, json=payload, headers=headers, timeout=30)
         response.raise_for_status()
 
@@ -60,6 +68,12 @@ def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOIC
 
         return True
 
+    except requests.exceptions.HTTPError as e:
+        speaker_label = f" ({speaker})" if speaker else ""
+        print(f"  ⚠️  ElevenLabs HTTP Error {e.response.status_code} (scene_{scene_id}{speaker_label})")
+        print(f"     URL: {e.response.url}")
+        print(f"     Response: {e.response.text}")
+        return False
     except Exception as e:
         speaker_label = f" ({speaker})" if speaker else ""
         print(f"  ⚠️  ElevenLabs error (scene_{scene_id}{speaker_label}): {e}")
@@ -107,8 +121,14 @@ def generate_image(prompt: str, scene_id: int) -> bool:
             return True
         else:
             print(f"  ⚠️  Unexpected response from Fal.ai (scene_{scene_id})")
+            print(f"     Response: {result}")
             return False
 
+    except requests.exceptions.HTTPError as e:
+        print(f"  ⚠️  Fal.ai HTTP Error {e.response.status_code} (scene_{scene_id})")
+        print(f"     URL: {e.response.url}")
+        print(f"     Response: {e.response.text}")
+        return False
     except Exception as e:
         print(f"  ⚠️  Fal.ai error (scene_{scene_id}): {e}")
         return False
@@ -116,6 +136,15 @@ def generate_image(prompt: str, scene_id: int) -> bool:
 def fetch_all_assets():
     """Generate audio and visual assets for all scenes"""
     print("📦 Loading scene data...")
+
+    # Debug: Show what API keys are configured
+    print("\n🔍 Debug - API Configuration:")
+    print(f"   ELEVENLABS_API_KEY: {'✓ Set' if ELEVENLABS_API_KEY and ELEVENLABS_API_KEY != 'your_elevenlabs_key_here' else '✗ Not set'}")
+    print(f"   ELEVENLABS_VOICE_ID: {ELEVENLABS_VOICE_ID}")
+    print(f"   ELEVENLABS_LANGUAGE: {ELEVENLABS_LANGUAGE}")
+    print(f"   FAL_KEY: {'✓ Set' if FAL_KEY and FAL_KEY != 'your_fal_key_here' else '✗ Not set'}")
+    print()
+
     scenes_data = load_scenes()
     scenes = scenes_data['scenes']
     character_desc = scenes_data['character_description']
