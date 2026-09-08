@@ -9,12 +9,16 @@ story.txt (input)
     ↓
 1_script_splitter.py (Claude API)
     ↓ scenes.json
-2_assets_fetcher.py (ElevenLabs + Fal.ai)
+2_assets_fetcher.py (ElevenLabs + Fal.ai Flux Dev)
     ↓ (audio/ + images/)
+2b_animate_videos.py (Fal.ai Wan 2.5 - OPTIONAL - Motion video)
+    ↓ (videos/)
 3_video_builder.py (FFmpeg + OpenCV)
-    ↓
+    ↓ (prefers animated videos, falls back to Ken Burns)
 output/rough_cut.mp4 (output)
 ```
+
+**New: Motion Video Mode** - Animate still images into smooth video clips using Fal.ai Wan 2.5 image-to-video model (~$0.05/second). Optional but recommended for professional output.
 
 ## 📦 Installation
 
@@ -71,11 +75,25 @@ python 2_assets_fetcher.py
 - `output/audio/scene_*.mp3` (English voiceover via ElevenLabs)
 - `output/images/scene_*.png` (AI images via Fal.ai Flux-dev)
 
+### 3️⃣b Animate Images to Video (OPTIONAL - Motion Mode)
+```bash
+python 2b_animate_videos.py
+```
+**Output:** 
+- `output/videos/scene_*.mp4` (Animated clips via Fal.ai Wan 2.5)
+- Cost: ~$0.05/second per video (~$10-20 per full video)
+- Creates smooth motion from still images, much better than Ken Burns effect
+
+**Skip this step** if you want to use Ken Burns zoom on static images instead (free, but less cinematic).
+
 ### 4️⃣ Build Video
 ```bash
 python 3_video_builder.py
 ```
-**Output:** `output/rough_cut.mp4` (Ken Burns effect applied)
+**Output:** 
+- `output/rough_cut.mp4` 
+- Uses animated videos if available (from step 3b)
+- Falls back to Ken Burns zoom on static images if no animated videos
 
 ## 📋 Module Descriptions
 
@@ -100,20 +118,39 @@ python 3_video_builder.py
   - Each character maintains consistent voice throughout
   - Language: English (configurable)
 - **Fal.ai Flux-dev:** 16:9 image generation
+  - **Safety:** Explicit instructions to avoid real/famous people
+  - Generates clearly fictional, generic-looking characters
+  - Art style: illustration/animation/stylized art
 - **Demo Mode:** Works without API keys
 
 **Input:** `scenes.json` (with character voice mappings)
 **Output:** `output/audio/` + `output/images/` (character-specific voicesovers)
 
-### 3_video_builder.py
-**Purpose:** Combine images and audio with cinematography effects
+### 2b_animate_videos.py (NEW - Optional)
+**Purpose:** Convert still images to animated video clips
 
-- Sync visual duration to audio length
-- Ken Burns zoom effect (gradual 5% zoom)
+- **Fal.ai Wan 2.5 Image-to-Video:** Generates smooth motion from still images
+- Creates cinematic video clips matching audio duration
+- Replaces Ken Burns zoom with real motion
+- Cost: ~$0.05/second (~$10-20 per full video)
+- Motion control: CFG scale 7.5, motion bucket 127, 24 FPS
+
+**Input:** `output/images/` + `output/audio/` (for duration)
+**Output:** `output/videos/scene_*.mp4`
+
+Run this AFTER 2_assets_fetcher.py if you want motion videos.
+Skip this if you prefer the free Ken Burns effect.
+
+### 3_video_builder.py
+**Purpose:** Combine images/videos and audio into final output
+
+- Prefers animated videos (from 2b_animate_videos.py)
+- Falls back to Ken Burns zoom if no animated videos
+- Syncs visual duration to audio length exactly
 - FFmpeg codec optimization
 - Scene concatenation
 
-**Input:** `scenes.json` + `output/audio/` + `output/images/`
+**Input:** `scenes.json` + `output/audio/` + `output/images/` + `output/videos/`
 **Output:** `output/rough_cut.mp4`
 
 ## 🎙️ Multi-Character Voice System

@@ -162,14 +162,11 @@ def build_video():
         print(f"📍 Sahne {scene_id}/{len(scenes)}:")
 
         audio_path = f"output/audio/scene_{scene_id}.mp3"
+        animated_video_path = f"output/videos/scene_{scene_id}.mp4"
         image_path = f"output/images/scene_{scene_id}.png"
 
         if not Path(audio_path).exists():
             print(f"  ⚠️  Ses dosyası bulunamadı: {audio_path}")
-            continue
-
-        if not Path(image_path).exists():
-            print(f"  ⚠️  Görsel dosyası bulunamadı: {image_path}")
             continue
 
         # Use scenes.json duration as fallback (if audio is empty/placeholder)
@@ -178,20 +175,35 @@ def build_video():
         print(f"  ⏱️  Ses süresi: {duration:.1f}s")
 
         try:
-            zoomed_video = str(temp_dir / f"zoomed_scene_{scene_id}.mp4")
-            print(f"  🎬 Zoomed video oluşturuluyor (Ken Burns 15% zoom)...")
-            # 30 FPS * duration = exact number of frames needed for exact duration
-            num_frames = int(duration * 30)
-            create_zoomed_image(image_path, zoomed_video, duration,
-                              frames=num_frames, zoom_factor=1.15)
-
             final_clip = str(temp_dir / f"final_scene_{scene_id}.mp4")
-            print(f"  🎵 Ses ekleniyor...")
-            if create_video_with_audio(zoomed_video, audio_path, final_clip, expected_duration=duration):
-                video_clips.append(final_clip)
-                print(f"  ✓ Sahne clip hazır ({duration:.1f}s)\n")
+
+            # Prefer animated video if available
+            if Path(animated_video_path).exists():
+                print(f"  🎬 Animated video found (Wan 2.5)")
+                print(f"  🎵 Ses ekleniyor...")
+                if create_video_with_audio(animated_video_path, audio_path, final_clip, expected_duration=duration):
+                    video_clips.append(final_clip)
+                    print(f"  ✓ Sahne clip hazır ({duration:.1f}s)\n")
+                else:
+                    print(f"  ✗ Ses eklenemedi\n")
+
+            # Fallback to Ken Burns if no animated video
+            elif Path(image_path).exists():
+                print(f"  🎬 Ken Burns zoomed video oluşturuluyor (fallback)...")
+                zoomed_video = str(temp_dir / f"zoomed_scene_{scene_id}.mp4")
+                # 30 FPS * duration = exact number of frames needed for exact duration
+                num_frames = int(duration * 30)
+                create_zoomed_image(image_path, zoomed_video, duration,
+                                  frames=num_frames, zoom_factor=1.15)
+
+                print(f"  🎵 Ses ekleniyor...")
+                if create_video_with_audio(zoomed_video, audio_path, final_clip, expected_duration=duration):
+                    video_clips.append(final_clip)
+                    print(f"  ✓ Sahne clip hazır ({duration:.1f}s)\n")
+                else:
+                    print(f"  ✗ Ses eklenemedi\n")
             else:
-                print(f"  ✗ Ses eklenemedi\n")
+                print(f"  ⚠️  Animasyon veya görsel dosyası bulunamadı: {scene_id}\n")
 
         except Exception as e:
             print(f"  ✗ Hata: {e}\n")

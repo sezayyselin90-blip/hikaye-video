@@ -190,7 +190,12 @@ def fetch_all_assets():
         generate_voiceover(voiceover, scene_id, voice_id=voice_id, speaker=speaker)
 
         print(f"  🖼️  Generating image...")
-        generate_image(f"{character_desc}. {image_prompt}", scene_id)
+
+        # Add explicit instructions to avoid real public figures
+        safety_instruction = "IMPORTANT: Use only clearly fictional, generic-looking characters. No resemblance to real/famous people. Art style: illustration, animation, or stylized art."
+        full_prompt = f"{safety_instruction}. {character_desc}. {image_prompt}"
+
+        generate_image(full_prompt, scene_id)
 
         time.sleep(1)
         print()
