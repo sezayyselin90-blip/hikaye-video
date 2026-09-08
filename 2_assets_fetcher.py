@@ -43,7 +43,6 @@ def generate_voiceover(text: str, scene_id: int, voice_id: str = ELEVENLABS_VOIC
         payload = {
             "text": text,
             "model_id": "eleven_multilingual_v2",
-            "language_code": ELEVENLABS_LANGUAGE,
             "voice_settings": {
                 "stability": 0.5,
                 "similarity_boost": 0.75
