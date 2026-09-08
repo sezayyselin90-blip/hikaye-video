@@ -2,23 +2,28 @@
 
 Automatically transform story texts into YouTube-ready videos with English voiceover and AI-generated visuals. A modular Python automation system for content creators.
 
-## 🏗️ Architecture
+## 🏗️ Architecture - Premium Mode (Full Motion + Character Consistency)
 
 ```
 story.txt (input)
     ↓
 1_script_splitter.py (Claude API)
-    ↓ scenes.json
-2_assets_fetcher.py (ElevenLabs + Fal.ai Flux Dev)
-    ↓ (audio/ + images/)
-2b_animate_videos.py (Fal.ai Wan 2.5 - OPTIONAL - Motion video)
-    ↓ (videos/)
-3_video_builder.py (FFmpeg + OpenCV)
-    ↓ (prefers animated videos, falls back to Ken Burns)
-output/rough_cut.mp4 (output)
+    ↓ scenes.json (with character assignments)
+2_assets_fetcher.py (ElevenLabs Multi-Voice + Fal.ai Flux Dev)
+    ↓ (audio/*.mp3 with character voices + images/*.png)
+2c_character_refs.py (Generate character reference portraits)
+    ↓ (character_refs/*.png - focused character images for consistency)
+2b_animate_videos.py (Kling 2.5 Turbo Pro - Full Motion)
+    ↓ (videos/*.mp4 - professional cinematic video)
+3_video_builder.py (FFmpeg - Final compositing)
+    ↓
+output/rough_cut.mp4 (output) - Professional quality!
 ```
 
-**New: Motion Video Mode** - Animate still images into smooth video clips using Fal.ai Wan 2.5 image-to-video model (~$0.05/second). Optional but recommended for professional output.
+**Premium Features:**
+- ✨ **Kling 2.5 Turbo Pro** image-to-video (Hollywood quality motion)
+- 🎤 **Multi-character voices** (each character has unique ElevenLabs voice)
+- 👥 **Character consistency** (reference portraits maintain appearance)
 
 ## 📦 Installation
 
@@ -56,7 +61,32 @@ apt-get install ffmpeg
 brew install ffmpeg
 ```
 
-## 🚀 Usage
+## 🚀 Quick Start (Premium Mode)
+
+```bash
+# Step 1: Analyze story
+python 1_script_splitter.py
+
+# Step 2: Generate audio (multi-voice) + images (safe)
+python 2_assets_fetcher.py
+
+# Step 3: Character reference portraits
+python 2c_character_refs.py
+
+# Step 4: Animate all scenes (Kling 2.5)
+python 2b_animate_videos.py
+
+# Step 5: Build final video
+python 3_video_builder.py
+
+# Result: output/rough_cut.mp4 ✨
+```
+
+**Estimated Cost:** ~$2-3 per 20-second video (high quality, professional result)
+
+---
+
+## 📋 Detailed Usage
 
 ### 1️⃣ Prepare Story
 Write your story in `story.txt` (English text)
@@ -65,35 +95,48 @@ Write your story in `story.txt` (English text)
 ```bash
 python 1_script_splitter.py
 ```
-**Output:** `scenes.json` (4-6 second scenes)
+**Output:** `scenes.json` (with character assignments and voice mappings)
 
-### 3️⃣ Generate Audio & Images
+### 3️⃣ Generate Audio & Images (Multi-Voice + Safety)
 ```bash
 python 2_assets_fetcher.py
 ```
 **Output:** 
-- `output/audio/scene_*.mp3` (English voiceover via ElevenLabs)
-- `output/images/scene_*.png` (AI images via Fal.ai Flux-dev)
+- `output/audio/scene_*.mp3` (Multi-character English voiceovers)
+  - Each character gets unique ElevenLabs voice (Narrator: James, Marcus: Bella, Ray: Grace)
+- `output/images/scene_*.png` (Fal.ai Flux-dev with safety prompts)
+  - Explicitly avoids real/famous people resemblance
+  - Clearly fictional characters, illustration/animation style
 
-### 3️⃣b Animate Images to Video (OPTIONAL - Motion Mode)
+### 3b️⃣ Generate Character References (Premium)
+```bash
+python 2c_character_refs.py
+```
+**Output:** 
+- `output/character_refs/{character}.png` (Focused character portraits)
+- Cost: ~$0.07/second per character (typically 3-5 characters = ~$1-2)
+- Used for character consistency across scenes
+- Ensures each character looks the same in every scene
+
+### 3c️⃣ Animate All Scenes to Video (Kling 2.5 Turbo Pro)
 ```bash
 python 2b_animate_videos.py
 ```
 **Output:** 
-- `output/videos/scene_*.mp4` (Animated clips via Fal.ai Wan 2.5)
-- Cost: ~$0.05/second per video (~$10-20 per full video)
-- Creates smooth motion from still images, much better than Ken Burns effect
+- `output/videos/scene_*.mp4` (Professional motion videos)
+- Model: Kling 2.5 Turbo Pro (Hollywood quality)
+- Cost: ~$0.07/second (~$1.50 per 21-second video)
+- Creates cinematic motion, character-aware animation
+- Much higher quality than Ken Burns or Wan 2.5
 
-**Skip this step** if you want to use Ken Burns zoom on static images instead (free, but less cinematic).
-
-### 4️⃣ Build Video
+### 4️⃣ Build Final Video
 ```bash
 python 3_video_builder.py
 ```
 **Output:** 
-- `output/rough_cut.mp4` 
-- Uses animated videos if available (from step 3b)
-- Falls back to Ken Burns zoom on static images if no animated videos
+- `output/rough_cut.mp4` (Final professional video)
+- Combines all animated scenes with multi-character audio
+- Perfect for YouTube shorts/TikTok/professional use
 
 ## 📋 Module Descriptions
 
@@ -126,20 +169,33 @@ python 3_video_builder.py
 **Input:** `scenes.json` (with character voice mappings)
 **Output:** `output/audio/` + `output/images/` (character-specific voicesovers)
 
-### 2b_animate_videos.py (NEW - Optional)
-**Purpose:** Convert still images to animated video clips
+### 2c_character_refs.py (Premium)
+**Purpose:** Generate focused character reference images for consistency
 
-- **Fal.ai Wan 2.5 Image-to-Video:** Generates smooth motion from still images
-- Creates cinematic video clips matching audio duration
-- Replaces Ken Burns zoom with real motion
-- Cost: ~$0.05/second (~$10-20 per full video)
-- Motion control: CFG scale 7.5, motion bucket 127, 24 FPS
+- Generates portrait-style images of each unique character
+- Creates `output/character_refs/{character}.png` for each actor
+- Used by 2b_animate_videos.py to maintain character appearance
+- One-time generation: ~$1-2 total for all characters
+- Ensures characters look identical across all scenes
 
-**Input:** `output/images/` + `output/audio/` (for duration)
+**Input:** `scenes.json` (character descriptions)
+**Output:** `output/character_refs/*.png`
+
+Essential for premium character consistency. Run AFTER 2_assets_fetcher.py.
+
+### 2b_animate_videos.py (Premium)
+**Purpose:** Convert all images to professional motion videos
+
+- **Model:** Kling 2.5 Turbo Pro (Hollywood-quality image-to-video)
+- Generates smooth cinematic motion from still images
+- Matches video duration exactly to audio length (5-6 seconds per scene)
+- Cost: ~$0.07/second (~$1.50 per 21-second full video)
+- Uses character references for appearance consistency
+
+**Input:** `output/images/` + `output/character_refs/` + `output/audio/` (for duration)
 **Output:** `output/videos/scene_*.mp4`
 
-Run this AFTER 2_assets_fetcher.py if you want motion videos.
-Skip this if you prefer the free Ken Burns effect.
+This is the key premium feature - creates professional-quality motion videos instead of static images.
 
 ### 3_video_builder.py
 **Purpose:** Combine images/videos and audio into final output
