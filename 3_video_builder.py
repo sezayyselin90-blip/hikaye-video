@@ -17,26 +17,40 @@ def load_scenes(scenes_path: str = "scenes.json") -> dict:
     with open(scenes_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def get_audio_duration(audio_path: str) -> float:
-    """Ses dosyasının süresini ffprobe ile ölçüyor"""
+def get_audio_duration(audio_path: str, fallback_duration: float = None) -> float:
+    """Ses dosyasının süresini ffprobe ile ölçüyor, başarısızsa fallback kullan"""
+    # First check if file is empty (placeholder)
+    try:
+        if os.path.getsize(audio_path) == 0:
+            if fallback_duration is not None:
+                return fallback_duration
+            return 5.0
+    except:
+        pass
+
     try:
         result = subprocess.run(
             ['ffprobe', '-v', 'error', '-show_entries', 'format=duration',
              '-of', 'default=noprint_wrappers=1:nokey=1:noprint_wrappers=1',
              audio_path],
-            capture_output=True, text=True, timeout=10
+            capture_output=True, text=True, timeout=5
         )
         if result.stdout.strip():
-            return float(result.stdout.strip())
+            duration = float(result.stdout.strip())
+            if duration > 0.1:  # Sanity check - real audio
+                return duration
     except Exception as e:
-        print(f"  ⚠️  ffprobe hatası: {e}")
+        pass
 
+    # Fallback to provided duration or default
+    if fallback_duration is not None:
+        return fallback_duration
     return 5.0
 
 def create_zoomed_image(image_path: str, output_path: str, duration: float,
-                        frames: int = 30, zoom_factor: float = 1.05):
+                        frames: int = 30, zoom_factor: float = 1.15):
     """
-    Ken Burns efekti ile zoomed görsel oluşturuyor
+    Ken Burns efekti ile zoomed görsel oluşturuyor (15% smooth zoom)
     Her frame'de kademeli zoom yapar
     """
     img = Image.open(image_path).convert('RGB')
@@ -60,8 +74,10 @@ def create_zoomed_image(image_path: str, output_path: str, duration: float,
         frame_array = np.array(zoomed)
         output_frames.append(frame_array)
 
+    # Ensure correct FPS: 30 frames per second
+    fps = 30.0
     video = cv2.VideoWriter(
-        output_path, cv2.VideoWriter_fourcc(*'mp4v'), frames / duration, (w, h)
+        output_path, cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h)
     )
 
     for frame in output_frames:
@@ -70,7 +86,7 @@ def create_zoomed_image(image_path: str, output_path: str, duration: float,
 
     video.release()
 
-def create_video_with_audio(video_path: str, audio_path: str, output_path: str):
+def create_video_with_audio(video_path: str, audio_path: str, output_path: str, expected_duration: float = None):
     """FFmpeg ile video ve ses dosyalarını birleştiriyor (varsa)"""
     try:
         audio_size = os.path.getsize(audio_path)
@@ -81,11 +97,20 @@ def create_video_with_audio(video_path: str, audio_path: str, output_path: str):
                 '-c:v', 'libx264', '-crf', '23', '-y', output_path
             ]
         else:
-            cmd = [
-                'ffmpeg', '-i', video_path, '-i', audio_path,
-                '-c:v', 'libx264', '-c:a', 'aac',
-                '-shortest', '-y', output_path
-            ]
+            # Merge video with audio, matching video duration exactly
+            if expected_duration:
+                cmd = [
+                    'ffmpeg', '-i', video_path, '-i', audio_path,
+                    '-c:v', 'libx264', '-c:a', 'aac',
+                    '-t', str(expected_duration),
+                    '-y', output_path
+                ]
+            else:
+                cmd = [
+                    'ffmpeg', '-i', video_path, '-i', audio_path,
+                    '-c:v', 'libx264', '-c:a', 'aac',
+                    '-shortest', '-y', output_path
+                ]
 
         result = subprocess.run(cmd, capture_output=True, timeout=300)
         if result.returncode == 0:
@@ -147,20 +172,24 @@ def build_video():
             print(f"  ⚠️  Görsel dosyası bulunamadı: {image_path}")
             continue
 
-        duration = get_audio_duration(audio_path)
+        # Use scenes.json duration as fallback (if audio is empty/placeholder)
+        fallback_duration = scene.get('duration_seconds', 5)
+        duration = get_audio_duration(audio_path, fallback_duration=fallback_duration)
         print(f"  ⏱️  Ses süresi: {duration:.1f}s")
 
         try:
             zoomed_video = str(temp_dir / f"zoomed_scene_{scene_id}.mp4")
-            print(f"  🎬 Zoomed video oluşturuluyor...")
+            print(f"  🎬 Zoomed video oluşturuluyor (Ken Burns 15% zoom)...")
+            # 30 FPS * duration = exact number of frames needed for exact duration
+            num_frames = int(duration * 30)
             create_zoomed_image(image_path, zoomed_video, duration,
-                              frames=int(duration * 30), zoom_factor=1.05)
+                              frames=num_frames, zoom_factor=1.15)
 
             final_clip = str(temp_dir / f"final_scene_{scene_id}.mp4")
             print(f"  🎵 Ses ekleniyor...")
-            if create_video_with_audio(zoomed_video, audio_path, final_clip):
+            if create_video_with_audio(zoomed_video, audio_path, final_clip, expected_duration=duration):
                 video_clips.append(final_clip)
-                print(f"  ✓ Sahne clip hazır\n")
+                print(f"  ✓ Sahne clip hazır ({duration:.1f}s)\n")
             else:
                 print(f"  ✗ Ses eklenemedi\n")
 
