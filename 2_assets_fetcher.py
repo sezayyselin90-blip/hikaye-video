@@ -91,14 +91,14 @@ def generate_image(prompt: str, scene_id: int) -> bool:
         return True
 
     try:
-        url = "https://api.fal.ai/v1/flux-dev"
-        headers = {"Authorization": f"Key {FAL_KEY}"}
+        url = "https://fal.run/fal-ai/flux/dev"
+        headers = {
+            "Authorization": f"Key {FAL_KEY}",
+            "Content-Type": "application/json"
+        }
         payload = {
             "prompt": prompt,
-            "image_size": {
-                "width": 1920,
-                "height": 1080
-            },
+            "image_size": "landscape_16_9",
             "num_inference_steps": 25,
             "guidance_scale": 3.5
         }
@@ -107,22 +107,35 @@ def generate_image(prompt: str, scene_id: int) -> bool:
         response.raise_for_status()
 
         result = response.json()
-        if "image" in result and "url" in result["image"]:
-            img_url = result["image"]["url"]
-            img_response = requests.get(img_url, timeout=30)
-            img_response.raise_for_status()
 
-            output_path = f"output/images/scene_{scene_id}.png"
-            Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+        # Try multiple response formats - Fal.ai returns different structures
+        img_url = None
+        if "images" in result and len(result["images"]) > 0:
+            # New format: {"images": [{"url": "..."}]}
+            img_url = result["images"][0].get("url")
+        elif "image" in result:
+            # Legacy format: {"image": {"url": "..."}}
+            if isinstance(result["image"], dict) and "url" in result["image"]:
+                img_url = result["image"]["url"]
+            elif isinstance(result["image"], str):
+                # Direct URL string
+                img_url = result["image"]
 
-            with open(output_path, 'wb') as f:
-                f.write(img_response.content)
-
-            return True
-        else:
+        if not img_url:
             print(f"  ⚠️  Unexpected response from Fal.ai (scene_{scene_id})")
             print(f"     Response: {result}")
             return False
+
+        img_response = requests.get(img_url, timeout=30)
+        img_response.raise_for_status()
+
+        output_path = f"output/images/scene_{scene_id}.png"
+        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_path, 'wb') as f:
+            f.write(img_response.content)
+
+        return True
 
     except requests.exceptions.HTTPError as e:
         print(f"  ⚠️  Fal.ai HTTP Error {e.response.status_code} (scene_{scene_id})")
