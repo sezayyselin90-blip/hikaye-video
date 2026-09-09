@@ -1,0 +1,721 @@
+{
+  "total_scenes": 59,
+  "total_segments": 89,
+  "total_duration": 325.0,
+  "segments": [
+    {
+      "segment_id": 1,
+      "scene_id": 1,
+      "start_time": 0,
+      "duration": 5.0,
+      "visual_prompt": "Karanlık, nemli beton köprü altı, gri gökyüzü, uzaktan tren rayları, soğuk kış atmosferi, sinematik geniş açı, 16:9 format.",
+      "text_excerpt": "Chicago'nun güney yakasında, beton tren köprüsünün..."
+    },
+    {
+      "segment_id": 2,
+      "scene_id": 2,
+      "start_time": 5.0,
+      "duration": 3.0,
+      "visual_prompt": "Öfkeli iri yapılı adam, takım elbiseli adamın yakasına yapışmış, kopan düğmeler havada, gerilim dolu yakın çekim, dramatik ışık.",
+      "text_excerpt": "İri yapılı dükkân sahibi Ray, Marcus'u pahalı İtal..."
+    },
+    {
+      "segment_id": 3,
+      "scene_id": 2,
+      "start_time": 8.0,
+      "duration": 3.0,
+      "visual_prompt": "Öfkeli iri yapılı adam, takım elbiseli adamın yakasına yapışmış, kopan düğmeler havada, gerilim dolu yakın çekim, dramatik ışık.",
+      "text_excerpt": "İri yapılı dükkân sahibi Ray, Marcus'u pahalı İtal..."
+    },
+    {
+      "segment_id": 4,
+      "scene_id": 3,
+      "start_time": 11.0,
+      "duration": 5.0,
+      "visual_prompt": "Ray'in öfkeden kızarmış yüzü, yakın plan, dişleri sıkılı, arka planda bulanık kalabalık silueti.",
+      "text_excerpt": "\"Seni hasta pislik! Her sabah o lüks arabanla bura..."
+    },
+    {
+      "segment_id": 5,
+      "scene_id": 4,
+      "start_time": 16.0,
+      "duration": 5.0,
+      "visual_prompt": "Öfkeli kalabalık geniş açı çekim, farklı yaşlarda insanlar, tehditkar duruşlar, köprü altının gölgesinde toplanmışlar.",
+      "text_excerpt": "Saniyeler içinde düşmanca bir kalabalık etrafların..."
+    },
+    {
+      "segment_id": 6,
+      "scene_id": 5,
+      "start_time": 21.0,
+      "duration": 5.0,
+      "visual_prompt": "Demir çubuk kaldırıma vururken kıvılcım, telefon ekranları yakın plan, kırmızı canlı yayın ikonları, gergin atmosfer.",
+      "text_excerpt": "Bir adam paslı demir çubuğu kaldırıma vurdu, birka..."
+    },
+    {
+      "segment_id": 7,
+      "scene_id": 6,
+      "start_time": 26.0,
+      "duration": 3.0,
+      "visual_prompt": "Kalabalığın gözünden sahne, Marcus takım elbiseli, yerdeki yaşlı adam kontrastı, dramatik ışık gölge oyunu.",
+      "text_excerpt": "İzleyenler için bu, açık gündüz vaktinde kibirli b..."
+    },
+    {
+      "segment_id": 8,
+      "scene_id": 6,
+      "start_time": 29.0,
+      "duration": 3.0,
+      "visual_prompt": "Kalabalığın gözünden sahne, Marcus takım elbiseli, yerdeki yaşlı adam kontrastı, dramatik ışık gölge oyunu.",
+      "text_excerpt": "İzleyenler için bu, açık gündüz vaktinde kibirli b..."
+    },
+    {
+      "segment_id": 9,
+      "scene_id": 7,
+      "start_time": 32.0,
+      "duration": 5.0,
+      "visual_prompt": "Marcus'un yüzü yakın plan, sakin ifade, bileğindeki lüks saate bakışı, saat kadranı net görünür, soğukkanlı duruş.",
+      "text_excerpt": "Ama Marcus kılını kıpırdatmadı. Gözlerinde korku y..."
+    },
+    {
+      "segment_id": 10,
+      "scene_id": 8,
+      "start_time": 37.0,
+      "duration": 5.0,
+      "visual_prompt": "Marcus'un eli ceketinden kağıt çıkarırken yavaş çekim hissi, kağıdın yaşlı adamın önüne düşüşü, detay çekim.",
+      "text_excerpt": "Yakasına dolanmış yumruğu görmezden gelerek ceketi..."
+    },
+    {
+      "segment_id": 11,
+      "scene_id": 9,
+      "start_time": 42.0,
+      "duration": 5.0,
+      "visual_prompt": "Yaşlı adamın portresi, yırtık yeşil parka, bakımsız gri sakal, kartonun üzerinde büzülmüş hali, acıklı detay çekim.",
+      "text_excerpt": "Yerdeki adam mahallede \"Sessiz Joe\" olarak biliniy..."
+    },
+    {
+      "segment_id": 12,
+      "scene_id": 10,
+      "start_time": 47.0,
+      "duration": 3.0,
+      "visual_prompt": "Yaşlı adamın felçli yüzü yakın çekim, önündeki ezik teneke kutu, içindeki bozuk paralar, üzücü detaylar.",
+      "text_excerpt": "Ağır bir felç sağ tarafını felç etmişti, boğuk ses..."
+    },
+    {
+      "segment_id": 13,
+      "scene_id": 10,
+      "start_time": 50.0,
+      "duration": 3.0,
+      "visual_prompt": "Yaşlı adamın felçli yüzü yakın çekim, önündeki ezik teneke kutu, içindeki bozuk paralar, üzücü detaylar.",
+      "text_excerpt": "Ağır bir felç sağ tarafını felç etmişti, boğuk ses..."
+    },
+    {
+      "segment_id": 14,
+      "scene_id": 11,
+      "start_time": 53.0,
+      "duration": 3.0,
+      "visual_prompt": "Siyah Cadillac Escalade köprü altında park halinde, Marcus arabadan iniyor, lüks ayakkabıları çamurlu zeminde, sinematik açı.",
+      "text_excerpt": "Geçtiğimiz bir ay boyunca, Marcus her sabah siyah ..."
+    },
+    {
+      "segment_id": 15,
+      "scene_id": 11,
+      "start_time": 56.0,
+      "duration": 3.0,
+      "visual_prompt": "Siyah Cadillac Escalade köprü altında park halinde, Marcus arabadan iniyor, lüks ayakkabıları çamurlu zeminde, sinematik açı.",
+      "text_excerpt": "Geçtiğimiz bir ay boyunca, Marcus her sabah siyah ..."
+    },
+    {
+      "segment_id": 16,
+      "scene_id": 12,
+      "start_time": 59.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un eli teneke kutudan para alırken, belge bırakırken sekans halinde montaj görüntüsü, tekrarlanan rutin hissi.",
+      "text_excerpt": "Kutudaki bozuk paraları ve buruşuk dolarları sayar..."
+    },
+    {
+      "segment_id": 17,
+      "scene_id": 12,
+      "start_time": 62.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un eli teneke kutudan para alırken, belge bırakırken sekans halinde montaj görüntüsü, tekrarlanan rutin hissi.",
+      "text_excerpt": "Kutudaki bozuk paraları ve buruşuk dolarları sayar..."
+    },
+    {
+      "segment_id": 18,
+      "scene_id": 13,
+      "start_time": 65.0,
+      "duration": 5.0,
+      "visual_prompt": "İki polis arabası hızla gelip duruyor, mavi kırmızı ışıklar köprü altında yansıyor, dramatik varış anı.",
+      "text_excerpt": "Mahalle için o, açgözlülüğün tanımıydı. Ta ki kesk..."
+    },
+    {
+      "segment_id": 19,
+      "scene_id": 14,
+      "start_time": 70.0,
+      "duration": 5.0,
+      "visual_prompt": "İki polis memuru arabadan iniyor, elleri belindeki tabanca kılıflarına yakın, ciddi ve tetikte ifadeler.",
+      "text_excerpt": "Memur Miller ve ortağı arabadan indi, elleri kılıf..."
+    },
+    {
+      "segment_id": 20,
+      "scene_id": 15,
+      "start_time": 75.0,
+      "duration": 5.0,
+      "visual_prompt": "Miller'ın kararlı yüzü, elini kaldırıp kalabalığı geri iterken, otoriter duruş, yakın plan.",
+      "text_excerpt": "\"Herkes geri çekilsin! Uzaklaşın! Uzaklaşın!\""
+    },
+    {
+      "segment_id": 21,
+      "scene_id": 16,
+      "start_time": 80.0,
+      "duration": 3.0,
+      "visual_prompt": "Ray'in Marcus'un yakasını hâlâ bırakmadığı, öfkeyle polise dönük yüzü, işaret parmağıyla Marcus'u gösteriyor.",
+      "text_excerpt": "\"Memur bey, tutuklayın şu psikopatı! Bu dilsiz gaz..."
+    },
+    {
+      "segment_id": 22,
+      "scene_id": 16,
+      "start_time": 83.0,
+      "duration": 3.0,
+      "visual_prompt": "Ray'in Marcus'un yakasını hâlâ bırakmadığı, öfkeyle polise dönük yüzü, işaret parmağıyla Marcus'u gösteriyor.",
+      "text_excerpt": "\"Memur bey, tutuklayın şu psikopatı! Bu dilsiz gaz..."
+    },
+    {
+      "segment_id": 23,
+      "scene_id": 17,
+      "start_time": 86.0,
+      "duration": 5.0,
+      "visual_prompt": "Miller'ın copu Marcus'un göğsüne dayanmış, gergin an, yakın çekim, ciddi ifadeler.",
+      "text_excerpt": "Miller cop'unu çekti, Marcus'un göğsüne bastırdı."
+    },
+    {
+      "segment_id": 24,
+      "scene_id": 18,
+      "start_time": 91.0,
+      "duration": 5.0,
+      "visual_prompt": "Miller'ın sert emredici yüzü, elini kaputa doğru işaret ederken, otorite dolu poz.",
+      "text_excerpt": "\"Ellerini kaputun üzerine koy. Hemen.\""
+    },
+    {
+      "segment_id": 25,
+      "scene_id": 19,
+      "start_time": 96.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un sakin gülümsemesi, gözleri Miller'a kilitlenmiş, kendinden emin duruş, dramatik yakın çekim.",
+      "text_excerpt": "\"Kelepçeye acele etmeyin memur bey. Bir şey yapmad..."
+    },
+    {
+      "segment_id": 26,
+      "scene_id": 19,
+      "start_time": 99.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un sakin gülümsemesi, gözleri Miller'a kilitlenmiş, kendinden emin duruş, dramatik yakın çekim.",
+      "text_excerpt": "\"Kelepçeye acele etmeyin memur bey. Bir şey yapmad..."
+    },
+    {
+      "segment_id": 27,
+      "scene_id": 20,
+      "start_time": 102.0,
+      "duration": 5.0,
+      "visual_prompt": "Bagaj açılıyor, siyah ağır evrak çantası görünüyor, memurun çantayı kaldırışı, gerilim dolu an.",
+      "text_excerpt": "Miller kaşlarını çattı, ortağına işaret etti. İkin..."
+    },
+    {
+      "segment_id": 28,
+      "scene_id": 21,
+      "start_time": 107.0,
+      "duration": 5.0,
+      "visual_prompt": "Marcus'un yüzü kararlı, sayıları söylerken dudak hareketi net görünür, gerginlik dolu bekleyiş.",
+      "text_excerpt": "\"Şifre bir, dokuz, dokuz, dört.\""
+    },
+    {
+      "segment_id": 29,
+      "scene_id": 22,
+      "start_time": 112.0,
+      "duration": 5.0,
+      "visual_prompt": "Çanta açılırken içindeki kırmızı mühürlü dosyalar ve eski belgeler yakın çekim, kalabalığın şaşkın yüzleri arka planda.",
+      "text_excerpt": "Kilitler açıldı. Kalabalık çalıntı para demetleri ..."
+    },
+    {
+      "segment_id": 30,
+      "scene_id": 23,
+      "start_time": 117.0,
+      "duration": 3.0,
+      "visual_prompt": "Miller'ın elinde mahkeme mühürlü belge, yüzü giderek şaşkınlaşıyor, detay çekim belge üzerinde resmi mühür.",
+      "text_excerpt": "Yüzlerce sayfa Illinois Eyalet Mahkemesi'nin resmi..."
+    },
+    {
+      "segment_id": 31,
+      "scene_id": 23,
+      "start_time": 120.0,
+      "duration": 3.0,
+      "visual_prompt": "Miller'ın elinde mahkeme mühürlü belge, yüzü giderek şaşkınlaşıyor, detay çekim belge üzerinde resmi mühür.",
+      "text_excerpt": "Yüzlerce sayfa Illinois Eyalet Mahkemesi'nin resmi..."
+    },
+    {
+      "segment_id": 32,
+      "scene_id": 24,
+      "start_time": 123.0,
+      "duration": 3.0,
+      "visual_prompt": "Miller'ın şaşkın yüzü yakın plan, gözleri belgeler ve yaşlı adam arasında gidip geliyor, dramatik ışık değişimi.",
+      "text_excerpt": "Sert ifadesi kayboldu, yerini derin bir şok aldı. ..."
+    },
+    {
+      "segment_id": 33,
+      "scene_id": 24,
+      "start_time": 126.0,
+      "duration": 3.0,
+      "visual_prompt": "Miller'ın şaşkın yüzü yakın plan, gözleri belgeler ve yaşlı adam arasında gidip geliyor, dramatik ışık değişimi.",
+      "text_excerpt": "Sert ifadesi kayboldu, yerini derin bir şok aldı. ..."
+    },
+    {
+      "segment_id": 34,
+      "scene_id": 25,
+      "start_time": 129.0,
+      "duration": 5.0,
+      "visual_prompt": "Miller'ın inanamayan yüzü yakın çekim, elindeki belgeye bakışı, şok ifadesi.",
+      "text_excerpt": "\"Bu... bu nasıl mümkün olabilir?\""
+    },
+    {
+      "segment_id": 35,
+      "scene_id": 26,
+      "start_time": 134.0,
+      "duration": 5.0,
+      "visual_prompt": "Ray'in kafası karışmış yüzü, hâlâ şüpheci bakışı, belgelere doğru bakıyor.",
+      "text_excerpt": "\"Nedir bu, memur bey? Sahte belgeler mi?\""
+    },
+    {
+      "segment_id": 36,
+      "scene_id": 27,
+      "start_time": 139.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus ayağa kalkmış, kalabalığa dönük geniş açı, otoriter ve etkileyici duruş, dramatik ışıklandırma.",
+      "text_excerpt": "Marcus kalabalığa döndü, sesi deneyimli bir mahkem..."
+    },
+    {
+      "segment_id": 37,
+      "scene_id": 27,
+      "start_time": 142.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus ayağa kalkmış, kalabalığa dönük geniş açı, otoriter ve etkileyici duruş, dramatik ışıklandırma.",
+      "text_excerpt": "Marcus kalabalığa döndü, sesi deneyimli bir mahkem..."
+    },
+    {
+      "segment_id": 38,
+      "scene_id": 28,
+      "start_time": 145.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un ciddi yüzü, yaşlı adama işaret ederken, kalabalığın arka planda şaşkın tepkileri.",
+      "text_excerpt": "\"Hepiniz bu adamı tanıdığınızı sanıyorsunuz. Ona '..."
+    },
+    {
+      "segment_id": 39,
+      "scene_id": 28,
+      "start_time": 148.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un ciddi yüzü, yaşlı adama işaret ederken, kalabalığın arka planda şaşkın tepkileri.",
+      "text_excerpt": "\"Hepiniz bu adamı tanıdığınızı sanıyorsunuz. Ona '..."
+    },
+    {
+      "segment_id": 40,
+      "scene_id": 29,
+      "start_time": 151.0,
+      "duration": 5.0,
+      "visual_prompt": "Kalabalığın şok dolu fısıltıları, birbirlerine bakan yüzler, arka planda Chicago şehir siluetinin gökdelenleri.",
+      "text_excerpt": "Kalabalıkta bir mırıltı dalgası yayıldı. Vance Loj..."
+    },
+    {
+      "segment_id": 41,
+      "scene_id": 30,
+      "start_time": 156.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un anlatırken sesindeki titreme, geçmişe dönük flashback görüntüsü — küçük bir çocuk yetimhane kapısında, siyah beyaz nostaljik ton.",
+      "text_excerpt": "\"Otuz yıl önce, Chicago'daki bir yetimhanede terk ..."
+    },
+    {
+      "segment_id": 42,
+      "scene_id": 30,
+      "start_time": 159.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un anlatırken sesindeki titreme, geçmişe dönük flashback görüntüsü — küçük bir çocuk yetimhane kapısında, siyah beyaz nostaljik ton.",
+      "text_excerpt": "\"Otuz yıl önce, Chicago'daki bir yetimhanede terk ..."
+    },
+    {
+      "segment_id": 43,
+      "scene_id": 31,
+      "start_time": 162.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback devamı, genç Marcus üniversite mezuniyet cübbesiyle, elinde diploma, gururlu ama meraklı ifade.",
+      "text_excerpt": "\"Her okul harcı, her kış montu, hukuk fakültesinde..."
+    },
+    {
+      "segment_id": 44,
+      "scene_id": 31,
+      "start_time": 165.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback devamı, genç Marcus üniversite mezuniyet cübbesiyle, elinde diploma, gururlu ama meraklı ifade.",
+      "text_excerpt": "\"Her okul harcı, her kış montu, hukuk fakültesinde..."
+    },
+    {
+      "segment_id": 45,
+      "scene_id": 32,
+      "start_time": 168.0,
+      "duration": 5.0,
+      "visual_prompt": "Marcus'un gözlerinde yaş, yaşlı adama bakışı, duygusal yakın çekim, arka planda sessiz kalabalık.",
+      "text_excerpt": "\"O imza Joseph Vance'e aitti — servetinin yarısını..."
+    },
+    {
+      "segment_id": 46,
+      "scene_id": 33,
+      "start_time": 173.0,
+      "duration": 5.0,
+      "visual_prompt": "Kalabalığın donmuş halleri, tam sessizlik hissi veren geniş açı, hareketsiz figürler.",
+      "text_excerpt": "Sokak ölüm sessizliğine büründü."
+    },
+    {
+      "segment_id": 47,
+      "scene_id": 34,
+      "start_time": 178.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus beton sütunları işaret ederken, yaşlı adamın felçli yüzü yakın çekim, acı dolu ifade.",
+      "text_excerpt": "\"Peki ona ne oldu? İki yıl önce ağır bir felç geçi..."
+    },
+    {
+      "segment_id": 48,
+      "scene_id": 34,
+      "start_time": 181.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus beton sütunları işaret ederken, yaşlı adamın felçli yüzü yakın çekim, acı dolu ifade.",
+      "text_excerpt": "\"Peki ona ne oldu? İki yıl önce ağır bir felç geçi..."
+    },
+    {
+      "segment_id": 49,
+      "scene_id": 35,
+      "start_time": 184.0,
+      "duration": 3.0,
+      "visual_prompt": "Karanlık bir özel tesis dış görünümü flashback, güvenlik kameraları, soğuk ve steril koridorlar.",
+      "text_excerpt": "\"Yozlaşmış doktorlara rüşvet vererek babasının akl..."
+    },
+    {
+      "segment_id": 50,
+      "scene_id": 35,
+      "start_time": 187.0,
+      "duration": 3.0,
+      "visual_prompt": "Karanlık bir özel tesis dış görünümü flashback, güvenlik kameraları, soğuk ve steril koridorlar.",
+      "text_excerpt": "\"Yozlaşmış doktorlara rüşvet vererek babasının akl..."
+    },
+    {
+      "segment_id": 51,
+      "scene_id": 36,
+      "start_time": 190.0,
+      "duration": 5.0,
+      "visual_prompt": "Yaşlı adamın sokakta yalnız yürüyüşü flashback, karanlık gece sahnesi, kaybolmuş ve şaşkın ifade.",
+      "text_excerpt": "\"Joseph kaçmayı başardı, ama kafası karışık ve kon..."
+    },
+    {
+      "segment_id": 52,
+      "scene_id": 37,
+      "start_time": 195.0,
+      "duration": 5.0,
+      "visual_prompt": "Ray'in elinin Marcus'un yakasından yavaşça çözülüşü, şaşkın ve pişman yüz ifadesi yakın plan.",
+      "text_excerpt": "Ray'in kavrayışı tamamen gevşedi."
+    },
+    {
+      "segment_id": 53,
+      "scene_id": 38,
+      "start_time": 200.0,
+      "duration": 5.0,
+      "visual_prompt": "Ray'in kafası karışık, merak dolu gözleri, Marcus'a doğru bakışı.",
+      "text_excerpt": "\"O zaman... neden her gün onun parasını alıyordun?..."
+    },
+    {
+      "segment_id": 54,
+      "scene_id": 39,
+      "start_time": 205.0,
+      "duration": 5.0,
+      "visual_prompt": "Marcus'un yaşlı adama şefkatli bakışı, yakın çekim, duygusal an.",
+      "text_excerpt": "Marcus yaşlı adama baktı."
+    },
+    {
+      "segment_id": 55,
+      "scene_id": 40,
+      "start_time": 210.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus konuşurken ciddi ve profesyonel ifade, kalabalığın dikkatli dinleyen yüzleri, avukat duruşu.",
+      "text_excerpt": "\"Illinois eyalet yasasına göre, bir müvekkil yasal..."
+    },
+    {
+      "segment_id": 56,
+      "scene_id": 40,
+      "start_time": 213.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus konuşurken ciddi ve profesyonel ifade, kalabalığın dikkatli dinleyen yüzleri, avukat duruşu.",
+      "text_excerpt": "\"Illinois eyalet yasasına göre, bir müvekkil yasal..."
+    },
+    {
+      "segment_id": 57,
+      "scene_id": 41,
+      "start_time": 216.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un elinde belge, konuşurken hafif nefes alışı, gerilim dolu duraklama, kalabalığın merakla beklemesi.",
+      "text_excerpt": "\"Carter'ın yüksek ücretli hukuk ekibi, Joe'nun ben..."
+    },
+    {
+      "segment_id": 58,
+      "scene_id": 41,
+      "start_time": 219.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un elinde belge, konuşurken hafif nefes alışı, gerilim dolu duraklama, kalabalığın merakla beklemesi.",
+      "text_excerpt": "\"Carter'ın yüksek ücretli hukuk ekibi, Joe'nun ben..."
+    },
+    {
+      "segment_id": 59,
+      "scene_id": 42,
+      "start_time": 222.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback montaj — Marcus'un her sabah teneke kutudan para alıp belge bırakışı, tekrarlanan sekans, güçlü müzik hissi.",
+      "text_excerpt": "\"Her tek sabah, kutusundaki bozuk paraları ve buru..."
+    },
+    {
+      "segment_id": 60,
+      "scene_id": 42,
+      "start_time": 225.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback montaj — Marcus'un her sabah teneke kutudan para alıp belge bırakışı, tekrarlanan sekans, güçlü müzik hissi.",
+      "text_excerpt": "\"Her tek sabah, kutusundaki bozuk paraları ve buru..."
+    },
+    {
+      "segment_id": 61,
+      "scene_id": 43,
+      "start_time": 228.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un kararlı ve gururlu yüzü, elinde tuttuğu dosyalar, arka planda köprünün gölgesi.",
+      "text_excerpt": "\"Otuz gün boyunca her kuruşu resmi hukuki sicile k..."
+    },
+    {
+      "segment_id": 62,
+      "scene_id": 43,
+      "start_time": 231.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un kararlı ve gururlu yüzü, elinde tuttuğu dosyalar, arka planda köprünün gölgesi.",
+      "text_excerpt": "\"Otuz gün boyunca her kuruşu resmi hukuki sicile k..."
+    },
+    {
+      "segment_id": 63,
+      "scene_id": 44,
+      "start_time": 234.0,
+      "duration": 5.0,
+      "visual_prompt": "Marcus'un elinde federal mühürlü ağır belge, yakın çekim, mühür net görünür.",
+      "text_excerpt": "Marcus evrak çantasına uzandı, o sabahki federal m..."
+    },
+    {
+      "segment_id": 64,
+      "scene_id": 45,
+      "start_time": 239.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus resmi belgeyi kalabalığa gösterirken, ciddi ve zafer dolu ifade, kalabalığın nefesini tutmuş hali.",
+      "text_excerpt": "\"Bu sabah saat 7:45'te, temyiz mahkemesi nihai kar..."
+    },
+    {
+      "segment_id": 65,
+      "scene_id": 45,
+      "start_time": 242.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus resmi belgeyi kalabalığa gösterirken, ciddi ve zafer dolu ifade, kalabalığın nefesini tutmuş hali.",
+      "text_excerpt": "\"Bu sabah saat 7:45'te, temyiz mahkemesi nihai kar..."
+    },
+    {
+      "segment_id": 66,
+      "scene_id": 46,
+      "start_time": 245.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un sesi yükselirken belgeyi havaya kaldırışı, kalabalığın şaşkın ve duygulu yüzleri.",
+      "text_excerpt": "\"120 milyon dolarlık mülkün tamamı, şirket hissele..."
+    },
+    {
+      "segment_id": 67,
+      "scene_id": 46,
+      "start_time": 248.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un sesi yükselirken belgeyi havaya kaldırışı, kalabalığın şaşkın ve duygulu yüzleri.",
+      "text_excerpt": "\"120 milyon dolarlık mülkün tamamı, şirket hissele..."
+    },
+    {
+      "segment_id": 68,
+      "scene_id": 47,
+      "start_time": 251.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un dizlerinin üzerine çökmesi, çamurlu su sıçrarken, takım elbisesi ıslanırken, duygusal yakın çekim.",
+      "text_excerpt": "Marcus çamurlu su birikintisinin tam içine iki diz..."
+    },
+    {
+      "segment_id": 69,
+      "scene_id": 47,
+      "start_time": 254.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un dizlerinin üzerine çökmesi, çamurlu su sıçrarken, takım elbisesi ıslanırken, duygusal yakın çekim.",
+      "text_excerpt": "Marcus çamurlu su birikintisinin tam içine iki diz..."
+    },
+    {
+      "segment_id": 70,
+      "scene_id": 48,
+      "start_time": 257.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un elleri yaşlı adamın titreyen elleriyle birleşmiş, belgeler ve anahtarlar avuçlarında, çok yakın duygusal çekim.",
+      "text_excerpt": "Joseph'in titreyen, yıpranmış ellerini kendi eller..."
+    },
+    {
+      "segment_id": 71,
+      "scene_id": 48,
+      "start_time": 260.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un elleri yaşlı adamın titreyen elleriyle birleşmiş, belgeler ve anahtarlar avuçlarında, çok yakın duygusal çekim.",
+      "text_excerpt": "Joseph'in titreyen, yıpranmış ellerini kendi eller..."
+    },
+    {
+      "segment_id": 72,
+      "scene_id": 49,
+      "start_time": 263.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un gözyaşları içinde fısıldayışı, yaşlı adamın yüzüne yakın çekim, ışık ikisinin arasında yumuşak parlıyor.",
+      "text_excerpt": "\"Savaş bitti, Bay Vance. Otuz yıl önce siz bana bi..."
+    },
+    {
+      "segment_id": 73,
+      "scene_id": 49,
+      "start_time": 266.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un gözyaşları içinde fısıldayışı, yaşlı adamın yüzüne yakın çekim, ışık ikisinin arasında yumuşak parlıyor.",
+      "text_excerpt": "\"Savaş bitti, Bay Vance. Otuz yıl önce siz bana bi..."
+    },
+    {
+      "segment_id": 74,
+      "scene_id": 50,
+      "start_time": 269.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un duygu dolu yüzü, arka planda siyah Escalade bekliyor, sıcak ışık kontrastı soğuk beton zemine karşı.",
+      "text_excerpt": "\"Bir daha asla soğukta uyumayacaksınız. Arabanız s..."
+    },
+    {
+      "segment_id": 75,
+      "scene_id": 50,
+      "start_time": 272.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un duygu dolu yüzü, arka planda siyah Escalade bekliyor, sıcak ışık kontrastı soğuk beton zemine karşı.",
+      "text_excerpt": "\"Bir daha asla soğukta uyumayacaksınız. Arabanız s..."
+    },
+    {
+      "segment_id": 76,
+      "scene_id": 51,
+      "start_time": 275.0,
+      "duration": 5.0,
+      "visual_prompt": "Ray'in başı öne eğik, utanç dolu duruşu, gözleri yerde, kalabalığın sessizliği.",
+      "text_excerpt": "Hiçbir ses çıkmadı kalabalıktan. Ray derin bir uta..."
+    },
+    {
+      "segment_id": 77,
+      "scene_id": 52,
+      "start_time": 280.0,
+      "duration": 5.0,
+      "visual_prompt": "Genç izleyicilerin telefonları aşağı iniyor, gözyaşlarını silen eller, duygusal yakın çekimler.",
+      "text_excerpt": "Gençler telefonlarını indirdi, gözlerini sildiler."
+    },
+    {
+      "segment_id": 78,
+      "scene_id": 53,
+      "start_time": 285.0,
+      "duration": 3.0,
+      "visual_prompt": "Joseph'in yüzünde ince bir gülümseme belirişi, gözlerinde parlayan ışık, çok yakın duygusal çekim.",
+      "text_excerpt": "Kartonun üzerinde Joseph, Marcus'un yüzüne baktı. ..."
+    },
+    {
+      "segment_id": 79,
+      "scene_id": 53,
+      "start_time": 288.0,
+      "duration": 3.0,
+      "visual_prompt": "Joseph'in yüzünde ince bir gülümseme belirişi, gözlerinde parlayan ışık, çok yakın duygusal çekim.",
+      "text_excerpt": "Kartonun üzerinde Joseph, Marcus'un yüzüne baktı. ..."
+    },
+    {
+      "segment_id": 80,
+      "scene_id": 54,
+      "start_time": 291.0,
+      "duration": 3.0,
+      "visual_prompt": "Joseph'in gözlerinde yansıyan minnet, Marcus'un gözyaşlı yüzüyle birleşen an, duygusal ışık oyunu.",
+      "text_excerpt": "Hiçbir kelime söylenmedi, ama gözlerindeki ışık, h..."
+    },
+    {
+      "segment_id": 81,
+      "scene_id": 54,
+      "start_time": 294.0,
+      "duration": 3.0,
+      "visual_prompt": "Joseph'in gözlerinde yansıyan minnet, Marcus'un gözyaşlı yüzüyle birleşen an, duygusal ışık oyunu.",
+      "text_excerpt": "Hiçbir kelime söylenmedi, ama gözlerindeki ışık, h..."
+    },
+    {
+      "segment_id": 82,
+      "scene_id": 55,
+      "start_time": 297.0,
+      "duration": 5.0,
+      "visual_prompt": "Marcus ceketini çıkarıp Joseph'in omuzlarına örterken, yardımseverlik dolu hareket, yakın çekim.",
+      "text_excerpt": "Marcus yaşlı adamı ayağa kaldırdı, kendi ceketini ..."
+    },
+    {
+      "segment_id": 83,
+      "scene_id": 56,
+      "start_time": 302.0,
+      "duration": 5.0,
+      "visual_prompt": "Marcus Joseph'i arabaya doğru yürütürken, arka planda kalabalığın saygılı sessizliği, sıcak araba ışıkları.",
+      "text_excerpt": "Onu Escalade'in deri koltuğuna doğru yönlendirdi."
+    },
+    {
+      "segment_id": 84,
+      "scene_id": 57,
+      "start_time": 307.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un arka planda kapı önünde durup kalabalığa dönük hali, ciddi ve bilge ifade, geniş açı çekim.",
+      "text_excerpt": "Kapıyı kapatmadan önce, Marcus sessiz izleyicilere..."
+    },
+    {
+      "segment_id": 85,
+      "scene_id": 57,
+      "start_time": 310.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un arka planda kapı önünde durup kalabalığa dönük hali, ciddi ve bilge ifade, geniş açı çekim.",
+      "text_excerpt": "Kapıyı kapatmadan önce, Marcus sessiz izleyicilere..."
+    },
+    {
+      "segment_id": 86,
+      "scene_id": 58,
+      "start_time": 313.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un son sözlerini söylerken kararlı ve bilge ifadesi, kalabalığın önünde durduğu son kare, dramatik ışık.",
+      "text_excerpt": "\"Bir durumu asla sadece gözlerinizin gördüğüyle ya..."
+    },
+    {
+      "segment_id": 87,
+      "scene_id": 58,
+      "start_time": 316.0,
+      "duration": 3.0,
+      "visual_prompt": "Marcus'un son sözlerini söylerken kararlı ve bilge ifadesi, kalabalığın önünde durduğu son kare, dramatik ışık.",
+      "text_excerpt": "\"Bir durumu asla sadece gözlerinizin gördüğüyle ya..."
+    },
+    {
+      "segment_id": 88,
+      "scene_id": 59,
+      "start_time": 319.0,
+      "duration": 3.0,
+      "visual_prompt": "Siyah Escalade uzaklaşırken arka lambaları, Chicago şehir ışıkları ufukta, kalabalığın geride kalan sessiz silueti, geniş sinematik final çekimi.",
+      "text_excerpt": "Siyah SUV sessizce şehir ışıklarına doğru uzaklaşt..."
+    },
+    {
+      "segment_id": 89,
+      "scene_id": 59,
+      "start_time": 322.0,
+      "duration": 3.0,
+      "visual_prompt": "Siyah Escalade uzaklaşırken arka lambaları, Chicago şehir ışıkları ufukta, kalabalığın geride kalan sessiz silueti, geniş sinematik final çekimi.",
+      "text_excerpt": "Siyah SUV sessizce şehir ışıklarına doğru uzaklaşt..."
+    }
+  ],
+  "batches": 9,
+  "batch_size": 10
+}

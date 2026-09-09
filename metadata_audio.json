@@ -1,0 +1,362 @@
+{
+  "voice_id": "AIJ0ViCZ83NSXLNIERjD",
+  "voice_name": "Warm Agent (Soothing American Assistant)",
+  "language": "Turkish",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Chicago'nun güney yakasında, beton tren köprüsünün altında, saniyeler içinde cehennem koptu."
+    },
+    {
+      "scene_id": 2,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "İri yapılı dükkân sahibi Ray, Marcus'u pahalı İtalyan takım elbisesinin yakasından öyle şiddetle yakaladı ki düğmeler koptu ve ıslak asfalta saçıldı."
+    },
+    {
+      "scene_id": 3,
+      "duration": 5,
+      "speaker": "Ray",
+      "text": "\"Seni hasta pislik! Her sabah o lüks arabanla buraya gelip bu zavallı, dilsiz adamın son kuruşlarını mı çalıyorsun? Bin dolarlık takım elbiseyle çaresizleri soyuyorsun!\""
+    },
+    {
+      "scene_id": 4,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Saniyeler içinde düşmanca bir kalabalık etraflarını sardı. Benzin istasyonu çalışanları, kuryeler, mahalle gençleri insan duvarı oluşturdu."
+    },
+    {
+      "scene_id": 5,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Bir adam paslı demir çubuğu kaldırıma vurdu, birkaç kişi telefon kameralarını doğrudan Marcus'a çevirip canlı yayın açtı."
+    },
+    {
+      "scene_id": 6,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "İzleyenler için bu, açık gündüz vaktinde kibirli bir milyonerin çaresiz bir evsizi terörize ettiği net bir olaydı."
+    },
+    {
+      "scene_id": 7,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Ama Marcus kılını kıpırdatmadı. Gözlerinde korku yoktu. Rahatsız edici bir sakinlikle saatine baktı. Tam sabah sekiz yirmi."
+    },
+    {
+      "scene_id": 8,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Yakasına dolanmış yumruğu görmezden gelerek ceketinin içine uzandı, katlanmış solmuş bir kağıt çıkardı ve ıslak kartonun üzerinde titreyen yaşlı adamın önüne bıraktı."
+    },
+    {
+      "scene_id": 9,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Yerdeki adam mahallede \"Sessiz Joe\" olarak biliniyordu. Yırtık pırtık yeşil ordu parkası giymiş, gri sakalı bakımsız, soğuğa karşı büzülmüştü."
+    },
+    {
+      "scene_id": 10,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Ağır bir felç sağ tarafını felç etmişti, boğuk seslerden başka bir şey çıkaramıyordu. Önünde yoldan geçenlerin bozuk para attığı ezik bir teneke kutu duruyordu."
+    },
+    {
+      "scene_id": 11,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Geçtiğimiz bir ay boyunca, Marcus her sabah siyah Cadillac Escalade'ini tam bu noktaya getirmişti. Cilalı deri ayakkabılarını kirletecek pisliğe aldırmadan yürüyüp gelirdi."
+    },
+    {
+      "scene_id": 12,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Kutudaki bozuk paraları ve buruşuk dolarları sayar, hepsini cebine atar, muğlak bir belgeyi yere bırakır ve tek kelime etmeden sürüp giderdi. Ne yiyecek, ne selam, ne açıklama."
+    },
+    {
+      "scene_id": 13,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Mahalle için o, açgözlülüğün tanımıydı. Ta ki keskin siren sesleri soğuk havayı yarana kadar. İki polis arabası köprünün altında gıcırdayarak durdu."
+    },
+    {
+      "scene_id": 14,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Memur Miller ve ortağı arabadan indi, elleri kılıflarına yakın duruyordu."
+    },
+    {
+      "scene_id": 15,
+      "duration": 5,
+      "speaker": "Miller",
+      "text": "\"Herkes geri çekilsin! Uzaklaşın! Uzaklaşın!\""
+    },
+    {
+      "scene_id": 16,
+      "duration": 6,
+      "speaker": "Ray",
+      "text": "\"Memur bey, tutuklayın şu psikopatı! Bu dilsiz gaziyi günden güne soyuyor! Hepimiz gördük!\""
+    },
+    {
+      "scene_id": 17,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Miller cop'unu çekti, Marcus'un göğsüne bastırdı."
+    },
+    {
+      "scene_id": 18,
+      "duration": 5,
+      "speaker": "Miller",
+      "text": "\"Ellerini kaputun üzerine koy. Hemen.\""
+    },
+    {
+      "scene_id": 19,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Kelepçeye acele etmeyin memur bey. Bir şey yapmadan önce arabamın bagajını açmanız gerekiyor. İçinde kilitli siyah bir evrak çantası var. Onu açtığınızda, buradaki herkes gerçek suçlunun kim olduğunu anlayacak.\""
+    },
+    {
+      "scene_id": 20,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Miller kaşlarını çattı, ortağına işaret etti. İkinci memur ağır evrak çantasını bagajdan çıkardı."
+    },
+    {
+      "scene_id": 21,
+      "duration": 5,
+      "speaker": "Marcus",
+      "text": "\"Şifre bir, dokuz, dokuz, dört.\""
+    },
+    {
+      "scene_id": 22,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Kilitler açıldı. Kalabalık çalıntı para demetleri ya da uyuşturucu bekliyordu. Bunun yerine çanta, kalın kırmızı mühürlü dosyalar, eski hisse senetleri ortaya çıkardı."
+    },
+    {
+      "scene_id": 23,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Yüzlerce sayfa Illinois Eyalet Mahkemesi'nin resmi mührünü taşıyordu. Miller üstteki dosyayı aldı, ilk satırları taradı."
+    },
+    {
+      "scene_id": 24,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Sert ifadesi kayboldu, yerini derin bir şok aldı. Gözlerini belgelerden titreyen yaşlı adama, sonra tekrar Marcus'a çevirdi."
+    },
+    {
+      "scene_id": 25,
+      "duration": 5,
+      "speaker": "Miller",
+      "text": "\"Bu... bu nasıl mümkün olabilir?\""
+    },
+    {
+      "scene_id": 26,
+      "duration": 5,
+      "speaker": "Ray",
+      "text": "\"Nedir bu, memur bey? Sahte belgeler mi?\""
+    },
+    {
+      "scene_id": 27,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Marcus kalabalığa döndü, sesi deneyimli bir mahkeme avukatı gibi yankılandı."
+    },
+    {
+      "scene_id": 28,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Hepiniz bu adamı tanıdığınızı sanıyorsunuz. Ona 'Sessiz Joe' diyorsunuz. Ona acıyor, bozuk para atıyor, kendinizi iyi hissediyorsunuz. Ama hiçbiriniz gerçek adını bilmiyorsunuz. Bu adam Joseph Vance.\""
+    },
+    {
+      "scene_id": 29,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Kalabalıkta bir mırıltı dalgası yayıldı. Vance Lojistik, Chicago şehir merkezinin yarısına sahip kurumsal bir imparatorluktu."
+    },
+    {
+      "scene_id": 30,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Otuz yıl önce, Chicago'daki bir yetimhanede terk edilmiş bir çocuk vardı. Parası yoktu, geleceği yoktu. Kimse onu evlat edinmedi, ama bir gün anonim bir vakıf kuruldu.\""
+    },
+    {
+      "scene_id": 31,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Her okul harcı, her kış montu, hukuk fakültesindeki her dönem tam olarak ödendi. Bağışçının adı gizliydi. Baroyu geçtikten yıllar sonra o imzanın izini sürebildim.\""
+    },
+    {
+      "scene_id": 32,
+      "duration": 5,
+      "speaker": "Marcus",
+      "text": "\"O imza Joseph Vance'e aitti — servetinin yarısını tam bir gizlilik içinde bağışlayan bir adam.\""
+    },
+    {
+      "scene_id": 33,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Sokak ölüm sessizliğine büründü."
+    },
+    {
+      "scene_id": 34,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Peki ona ne oldu? İki yıl önce ağır bir felç geçirdi. Konuşma yeteneğini kaybetti, hafızası zayıfladı. Ve tek oğlu Carter Vance, bu durumdan faydalandı.\""
+    },
+    {
+      "scene_id": 35,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Yozlaşmış doktorlara rüşvet vererek babasının akli dengesinin bozuk olduğunu ilan ettirdi, tüm vekaletnameyi ele geçirdi, şirketin tüm hisselerini aldı ve Joseph'i uzak bir özel tesise kapattı.\""
+    },
+    {
+      "scene_id": 36,
+      "duration": 5,
+      "speaker": "Marcus",
+      "text": "\"Joseph kaçmayı başardı, ama kafası karışık ve konuşamaz halde, sokaklarda son buldu, tam burada.\""
+    },
+    {
+      "scene_id": 37,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Ray'in kavrayışı tamamen gevşedi."
+    },
+    {
+      "scene_id": 38,
+      "duration": 5,
+      "speaker": "Ray",
+      "text": "\"O zaman... neden her gün onun parasını alıyordun?\""
+    },
+    {
+      "scene_id": 39,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Marcus yaşlı adama baktı."
+    },
+    {
+      "scene_id": 40,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Illinois eyalet yasasına göre, bir müvekkil yasal olarak yetersiz ilan edilmişse, dış bir avukat onun adına müdahale edemez. Tek yasal istisna, doğrudan bir bedel ile doğrulanmış, aktif ve bağımsız bir avukat-müvekkil ilişkisi kurmaktır.\""
+    },
+    {
+      "scene_id": 41,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Carter'ın yüksek ücretli hukuk ekibi, Joe'nun beni hiç işe almadığını ve temsil için ödeme yapmadığını iddia ederek dosyalarımı reddettirmeye çalıştı.\""
+    },
+    {
+      "scene_id": 42,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Her tek sabah, kutusundaki bozuk paraları ve buruşuk dolarları yasal olarak bağlayıcı vekalet ücreti olarak aldım! Ve bıraktığım her kağıt, mahkemeye sunulmuş bir beyandı.\""
+    },
+    {
+      "scene_id": 43,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Otuz gün boyunca her kuruşu resmi hukuki sicile kaydettim. Onun açgözlü oğlu, bu köprü altında Joe'nun topladığı bozuk paraların koca imparatorluğunu yıkacağını asla tahmin edemedi.\""
+    },
+    {
+      "scene_id": 44,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Marcus evrak çantasına uzandı, o sabahki federal mührü taşıyan ağır bir kararı çıkardı."
+    },
+    {
+      "scene_id": 45,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Bu sabah saat 7:45'te, temyiz mahkemesi nihai kararını verdi. Sahte vasilik iptal edildi. Carter Vance ve suç ortakları hakkında ağır dolandırıcılık ve kaçırma suçlarından tutuklama emri çıkarıldı.\""
+    },
+    {
+      "scene_id": 46,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"120 milyon dolarlık mülkün tamamı, şirket hisseleri ve mülkler tam olarak gerçek sahibine iade edildi.\""
+    },
+    {
+      "scene_id": 47,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Marcus çamurlu su birikintisinin tam içine iki dizinin üzerine çöktü, mahvolmuş takım elbisesine hiç aldırmadan."
+    },
+    {
+      "scene_id": 48,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Joseph'in titreyen, yıpranmış ellerini kendi ellerine aldı, mahkeme kararını ve mülkün ana anahtarlarını yaşlı adamın avucuna bastırdı ve başını eğdi."
+    },
+    {
+      "scene_id": 49,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Savaş bitti, Bay Vance. Otuz yıl önce siz bana bir hayat verdiniz. Bugün ben sizinkini geri getirdim.\""
+    },
+    {
+      "scene_id": 50,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Bir daha asla soğukta uyumayacaksınız. Arabanız sizi bekliyor... Lütfen eve dönün.\""
+    },
+    {
+      "scene_id": 51,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Hiçbir ses çıkmadı kalabalıktan. Ray derin bir utanç içinde donakalmıştı."
+    },
+    {
+      "scene_id": 52,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Gençler telefonlarını indirdi, gözlerini sildiler."
+    },
+    {
+      "scene_id": 53,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Kartonun üzerinde Joseph, Marcus'un yüzüne baktı. Felçli dudakları kırılgan bir gülümsemeye dönüştü."
+    },
+    {
+      "scene_id": 54,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Hiçbir kelime söylenmedi, ama gözlerindeki ışık, herhangi bir mahkeme zaferinden daha yüksek sesle bir minnettarlık taşıyordu."
+    },
+    {
+      "scene_id": 55,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Marcus yaşlı adamı ayağa kaldırdı, kendi ceketini titreyen omuzlarına örttü."
+    },
+    {
+      "scene_id": 56,
+      "duration": 5,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Onu Escalade'in deri koltuğuna doğru yönlendirdi."
+    },
+    {
+      "scene_id": 57,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Kapıyı kapatmadan önce, Marcus sessiz izleyicilere son kez döndü."
+    },
+    {
+      "scene_id": 58,
+      "duration": 6,
+      "speaker": "Marcus",
+      "text": "\"Bir durumu asla sadece gözlerinizin gördüğüyle yargılamayın. Bazen, bir adamın bardağından üç bozuk para almak, onun çalınmış hayatını geri satın almanın tek yoludur.\""
+    },
+    {
+      "scene_id": 59,
+      "duration": 6,
+      "speaker": "Anlatıcı (Narrator)",
+      "text": "Siyah SUV sessizce şehir ışıklarına doğru uzaklaştı, geride mahcup bir kalabalık ve adaletin sessiz zaferini bırakarak."
+    }
+  ],
+  "audio_dir": "audio"
+}

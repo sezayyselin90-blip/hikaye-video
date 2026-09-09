@@ -1,0 +1,625 @@
+[
+  {
+    "segment_id": 1,
+    "prompt": "Karanlık, nemli beton köprü altı, gri gökyüzü, uzaktan tren rayları, soğuk kış atmosferi, sinematik geniş açı, 16:9 format.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 1,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 2,
+    "prompt": "Öfkeli iri yapılı adam, takım elbiseli adamın yakasına yapışmış, kopan düğmeler havada, gerilim dolu yakın çekim, dramatik ışık.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 2,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 3,
+    "prompt": "Öfkeli iri yapılı adam, takım elbiseli adamın yakasına yapışmış, kopan düğmeler havada, gerilim dolu yakın çekim, dramatik ışık.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 2,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 4,
+    "prompt": "Ray'in öfkeden kızarmış yüzü, yakın plan, dişleri sıkılı, arka planda bulanık kalabalık silueti.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 3,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 5,
+    "prompt": "Öfkeli kalabalık geniş açı çekim, farklı yaşlarda insanlar, tehditkar duruşlar, köprü altının gölgesinde toplanmışlar.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 4,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 6,
+    "prompt": "Demir çubuk kaldırıma vururken kıvılcım, telefon ekranları yakın plan, kırmızı canlı yayın ikonları, gergin atmosfer.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 5,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 7,
+    "prompt": "Kalabalığın gözünden sahne, Marcus takım elbiseli, yerdeki yaşlı adam kontrastı, dramatik ışık gölge oyunu.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 6,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 8,
+    "prompt": "Kalabalığın gözünden sahne, Marcus takım elbiseli, yerdeki yaşlı adam kontrastı, dramatik ışık gölge oyunu.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 6,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 9,
+    "prompt": "Marcus'un yüzü yakın plan, sakin ifade, bileğindeki lüks saate bakışı, saat kadranı net görünür, soğukkanlı duruş.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 7,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 10,
+    "prompt": "Marcus'un eli ceketinden kağıt çıkarırken yavaş çekim hissi, kağıdın yaşlı adamın önüne düşüşü, detay çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 8,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 11,
+    "prompt": "Yaşlı adamın portresi, yırtık yeşil parka, bakımsız gri sakal, kartonun üzerinde büzülmüş hali, acıklı detay çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 9,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 12,
+    "prompt": "Yaşlı adamın felçli yüzü yakın çekim, önündeki ezik teneke kutu, içindeki bozuk paralar, üzücü detaylar.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 10,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 13,
+    "prompt": "Yaşlı adamın felçli yüzü yakın çekim, önündeki ezik teneke kutu, içindeki bozuk paralar, üzücü detaylar.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 10,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 14,
+    "prompt": "Siyah Cadillac Escalade köprü altında park halinde, Marcus arabadan iniyor, lüks ayakkabıları çamurlu zeminde, sinematik açı.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 11,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 15,
+    "prompt": "Siyah Cadillac Escalade köprü altında park halinde, Marcus arabadan iniyor, lüks ayakkabıları çamurlu zeminde, sinematik açı.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 11,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 16,
+    "prompt": "Marcus'un eli teneke kutudan para alırken, belge bırakırken sekans halinde montaj görüntüsü, tekrarlanan rutin hissi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 12,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 17,
+    "prompt": "Marcus'un eli teneke kutudan para alırken, belge bırakırken sekans halinde montaj görüntüsü, tekrarlanan rutin hissi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 12,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 18,
+    "prompt": "İki polis arabası hızla gelip duruyor, mavi kırmızı ışıklar köprü altında yansıyor, dramatik varış anı.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 13,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 19,
+    "prompt": "İki polis memuru arabadan iniyor, elleri belindeki tabanca kılıflarına yakın, ciddi ve tetikte ifadeler.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 14,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 20,
+    "prompt": "Miller'ın kararlı yüzü, elini kaldırıp kalabalığı geri iterken, otoriter duruş, yakın plan.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 15,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 21,
+    "prompt": "Ray'in Marcus'un yakasını hâlâ bırakmadığı, öfkeyle polise dönük yüzü, işaret parmağıyla Marcus'u gösteriyor.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 16,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 22,
+    "prompt": "Ray'in Marcus'un yakasını hâlâ bırakmadığı, öfkeyle polise dönük yüzü, işaret parmağıyla Marcus'u gösteriyor.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 16,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 23,
+    "prompt": "Miller'ın copu Marcus'un göğsüne dayanmış, gergin an, yakın çekim, ciddi ifadeler.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 17,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 24,
+    "prompt": "Miller'ın sert emredici yüzü, elini kaputa doğru işaret ederken, otorite dolu poz.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 18,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 25,
+    "prompt": "Marcus'un sakin gülümsemesi, gözleri Miller'a kilitlenmiş, kendinden emin duruş, dramatik yakın çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 19,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 26,
+    "prompt": "Marcus'un sakin gülümsemesi, gözleri Miller'a kilitlenmiş, kendinden emin duruş, dramatik yakın çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 19,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 27,
+    "prompt": "Bagaj açılıyor, siyah ağır evrak çantası görünüyor, memurun çantayı kaldırışı, gerilim dolu an.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 20,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 28,
+    "prompt": "Marcus'un yüzü kararlı, sayıları söylerken dudak hareketi net görünür, gerginlik dolu bekleyiş.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 21,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 29,
+    "prompt": "Çanta açılırken içindeki kırmızı mühürlü dosyalar ve eski belgeler yakın çekim, kalabalığın şaşkın yüzleri arka planda.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 22,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 30,
+    "prompt": "Miller'ın elinde mahkeme mühürlü belge, yüzü giderek şaşkınlaşıyor, detay çekim belge üzerinde resmi mühür.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 23,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 31,
+    "prompt": "Miller'ın elinde mahkeme mühürlü belge, yüzü giderek şaşkınlaşıyor, detay çekim belge üzerinde resmi mühür.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 23,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 32,
+    "prompt": "Miller'ın şaşkın yüzü yakın plan, gözleri belgeler ve yaşlı adam arasında gidip geliyor, dramatik ışık değişimi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 24,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 33,
+    "prompt": "Miller'ın şaşkın yüzü yakın plan, gözleri belgeler ve yaşlı adam arasında gidip geliyor, dramatik ışık değişimi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 24,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 34,
+    "prompt": "Miller'ın inanamayan yüzü yakın çekim, elindeki belgeye bakışı, şok ifadesi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 25,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 35,
+    "prompt": "Ray'in kafası karışmış yüzü, hâlâ şüpheci bakışı, belgelere doğru bakıyor.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 26,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 36,
+    "prompt": "Marcus ayağa kalkmış, kalabalığa dönük geniş açı, otoriter ve etkileyici duruş, dramatik ışıklandırma.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 27,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 37,
+    "prompt": "Marcus ayağa kalkmış, kalabalığa dönük geniş açı, otoriter ve etkileyici duruş, dramatik ışıklandırma.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 27,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 38,
+    "prompt": "Marcus'un ciddi yüzü, yaşlı adama işaret ederken, kalabalığın arka planda şaşkın tepkileri.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 28,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 39,
+    "prompt": "Marcus'un ciddi yüzü, yaşlı adama işaret ederken, kalabalığın arka planda şaşkın tepkileri.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 28,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 40,
+    "prompt": "Kalabalığın şok dolu fısıltıları, birbirlerine bakan yüzler, arka planda Chicago şehir siluetinin gökdelenleri.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 29,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 41,
+    "prompt": "Marcus'un anlatırken sesindeki titreme, geçmişe dönük flashback görüntüsü — küçük bir çocuk yetimhane kapısında, siyah beyaz nostaljik ton.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 30,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 42,
+    "prompt": "Marcus'un anlatırken sesindeki titreme, geçmişe dönük flashback görüntüsü — küçük bir çocuk yetimhane kapısında, siyah beyaz nostaljik ton.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 30,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 43,
+    "prompt": "Flashback devamı, genç Marcus üniversite mezuniyet cübbesiyle, elinde diploma, gururlu ama meraklı ifade.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 31,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 44,
+    "prompt": "Flashback devamı, genç Marcus üniversite mezuniyet cübbesiyle, elinde diploma, gururlu ama meraklı ifade.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 31,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 45,
+    "prompt": "Marcus'un gözlerinde yaş, yaşlı adama bakışı, duygusal yakın çekim, arka planda sessiz kalabalık.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 32,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 46,
+    "prompt": "Kalabalığın donmuş halleri, tam sessizlik hissi veren geniş açı, hareketsiz figürler.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 33,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 47,
+    "prompt": "Marcus beton sütunları işaret ederken, yaşlı adamın felçli yüzü yakın çekim, acı dolu ifade.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 34,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 48,
+    "prompt": "Marcus beton sütunları işaret ederken, yaşlı adamın felçli yüzü yakın çekim, acı dolu ifade.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 34,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 49,
+    "prompt": "Karanlık bir özel tesis dış görünümü flashback, güvenlik kameraları, soğuk ve steril koridorlar.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 35,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 50,
+    "prompt": "Karanlık bir özel tesis dış görünümü flashback, güvenlik kameraları, soğuk ve steril koridorlar.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 35,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 51,
+    "prompt": "Yaşlı adamın sokakta yalnız yürüyüşü flashback, karanlık gece sahnesi, kaybolmuş ve şaşkın ifade.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 36,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 52,
+    "prompt": "Ray'in elinin Marcus'un yakasından yavaşça çözülüşü, şaşkın ve pişman yüz ifadesi yakın plan.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 37,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 53,
+    "prompt": "Ray'in kafası karışık, merak dolu gözleri, Marcus'a doğru bakışı.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 38,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 54,
+    "prompt": "Marcus'un yaşlı adama şefkatli bakışı, yakın çekim, duygusal an.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 39,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 55,
+    "prompt": "Marcus konuşurken ciddi ve profesyonel ifade, kalabalığın dikkatli dinleyen yüzleri, avukat duruşu.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 40,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 56,
+    "prompt": "Marcus konuşurken ciddi ve profesyonel ifade, kalabalığın dikkatli dinleyen yüzleri, avukat duruşu.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 40,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 57,
+    "prompt": "Marcus'un elinde belge, konuşurken hafif nefes alışı, gerilim dolu duraklama, kalabalığın merakla beklemesi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 41,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 58,
+    "prompt": "Marcus'un elinde belge, konuşurken hafif nefes alışı, gerilim dolu duraklama, kalabalığın merakla beklemesi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 41,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 59,
+    "prompt": "Flashback montaj — Marcus'un her sabah teneke kutudan para alıp belge bırakışı, tekrarlanan sekans, güçlü müzik hissi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 42,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 60,
+    "prompt": "Flashback montaj — Marcus'un her sabah teneke kutudan para alıp belge bırakışı, tekrarlanan sekans, güçlü müzik hissi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 42,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 61,
+    "prompt": "Marcus'un kararlı ve gururlu yüzü, elinde tuttuğu dosyalar, arka planda köprünün gölgesi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 43,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 62,
+    "prompt": "Marcus'un kararlı ve gururlu yüzü, elinde tuttuğu dosyalar, arka planda köprünün gölgesi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 43,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 63,
+    "prompt": "Marcus'un elinde federal mühürlü ağır belge, yakın çekim, mühür net görünür.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 44,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 64,
+    "prompt": "Marcus resmi belgeyi kalabalığa gösterirken, ciddi ve zafer dolu ifade, kalabalığın nefesini tutmuş hali.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 45,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 65,
+    "prompt": "Marcus resmi belgeyi kalabalığa gösterirken, ciddi ve zafer dolu ifade, kalabalığın nefesini tutmuş hali.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 45,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 66,
+    "prompt": "Marcus'un sesi yükselirken belgeyi havaya kaldırışı, kalabalığın şaşkın ve duygulu yüzleri.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 46,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 67,
+    "prompt": "Marcus'un sesi yükselirken belgeyi havaya kaldırışı, kalabalığın şaşkın ve duygulu yüzleri.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 46,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 68,
+    "prompt": "Marcus'un dizlerinin üzerine çökmesi, çamurlu su sıçrarken, takım elbisesi ıslanırken, duygusal yakın çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 47,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 69,
+    "prompt": "Marcus'un dizlerinin üzerine çökmesi, çamurlu su sıçrarken, takım elbisesi ıslanırken, duygusal yakın çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 47,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 70,
+    "prompt": "Marcus'un elleri yaşlı adamın titreyen elleriyle birleşmiş, belgeler ve anahtarlar avuçlarında, çok yakın duygusal çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 48,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 71,
+    "prompt": "Marcus'un elleri yaşlı adamın titreyen elleriyle birleşmiş, belgeler ve anahtarlar avuçlarında, çok yakın duygusal çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 48,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 72,
+    "prompt": "Marcus'un gözyaşları içinde fısıldayışı, yaşlı adamın yüzüne yakın çekim, ışık ikisinin arasında yumuşak parlıyor.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 49,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 73,
+    "prompt": "Marcus'un gözyaşları içinde fısıldayışı, yaşlı adamın yüzüne yakın çekim, ışık ikisinin arasında yumuşak parlıyor.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 49,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 74,
+    "prompt": "Marcus'un duygu dolu yüzü, arka planda siyah Escalade bekliyor, sıcak ışık kontrastı soğuk beton zemine karşı.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 50,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 75,
+    "prompt": "Marcus'un duygu dolu yüzü, arka planda siyah Escalade bekliyor, sıcak ışık kontrastı soğuk beton zemine karşı.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 50,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 76,
+    "prompt": "Ray'in başı öne eğik, utanç dolu duruşu, gözleri yerde, kalabalığın sessizliği.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 51,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 77,
+    "prompt": "Genç izleyicilerin telefonları aşağı iniyor, gözyaşlarını silen eller, duygusal yakın çekimler.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 52,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 78,
+    "prompt": "Joseph'in yüzünde ince bir gülümseme belirişi, gözlerinde parlayan ışık, çok yakın duygusal çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 53,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 79,
+    "prompt": "Joseph'in yüzünde ince bir gülümseme belirişi, gözlerinde parlayan ışık, çok yakın duygusal çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 53,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 80,
+    "prompt": "Joseph'in gözlerinde yansıyan minnet, Marcus'un gözyaşlı yüzüyle birleşen an, duygusal ışık oyunu.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 54,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 81,
+    "prompt": "Joseph'in gözlerinde yansıyan minnet, Marcus'un gözyaşlı yüzüyle birleşen an, duygusal ışık oyunu.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 54,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 82,
+    "prompt": "Marcus ceketini çıkarıp Joseph'in omuzlarına örterken, yardımseverlik dolu hareket, yakın çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 55,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 83,
+    "prompt": "Marcus Joseph'i arabaya doğru yürütürken, arka planda kalabalığın saygılı sessizliği, sıcak araba ışıkları.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 56,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 84,
+    "prompt": "Marcus'un arka planda kapı önünde durup kalabalığa dönük hali, ciddi ve bilge ifade, geniş açı çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 57,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 85,
+    "prompt": "Marcus'un arka planda kapı önünde durup kalabalığa dönük hali, ciddi ve bilge ifade, geniş açı çekim.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 57,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 86,
+    "prompt": "Marcus'un son sözlerini söylerken kararlı ve bilge ifadesi, kalabalığın önünde durduğu son kare, dramatik ışık.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 58,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 87,
+    "prompt": "Marcus'un son sözlerini söylerken kararlı ve bilge ifadesi, kalabalığın önünde durduğu son kare, dramatik ışık.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 58,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 88,
+    "prompt": "Siyah Escalade uzaklaşırken arka lambaları, Chicago şehir ışıkları ufukta, kalabalığın geride kalan sessiz silueti, geniş sinematik final çekimi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 59,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 89,
+    "prompt": "Siyah Escalade uzaklaşırken arka lambaları, Chicago şehir ışıkları ufukta, kalabalığın geride kalan sessiz silueti, geniş sinematik final çekimi.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 59,
+    "duration": 3.0
+  }
+]
