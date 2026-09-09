@@ -14,26 +14,53 @@ load_dotenv()
 def parse_english_scenario(txt_path: str) -> list:
     """Parse English scenario file"""
     with open(txt_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+        lines = f.readlines()
 
     scenes = []
-    scene_pattern = r'\[SCENE (\d+)\] \((\d+)s\)\nSpeaker: (.+?)\nText: (.+?)\nVisual: (.+?)(?:\n\[SCENE|\n---|\Z)'
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
 
-    matches = re.finditer(scene_pattern, content, re.DOTALL)
-    for match in matches:
-        scene_id = int(match.group(1))
-        duration = int(match.group(2))
-        speaker = match.group(3).strip()
-        text = match.group(4).strip()
-        visual_prompt = match.group(5).strip()
+        # Look for scene header
+        if line.startswith('[SCENE'):
+            match = re.match(r'\[SCENE (\d+)\] \((\d+)s\)', line)
+            if match:
+                scene_id = int(match.group(1))
+                duration = int(match.group(2))
 
-        scenes.append({
-            'scene_id': scene_id,
-            'duration': duration,
-            'speaker': speaker,
-            'text': text,
-            'visual_prompt': visual_prompt
-        })
+                # Parse Speaker
+                i += 1
+                speaker_line = lines[i].strip() if i < len(lines) else ""
+                speaker = speaker_line.replace('Speaker: ', '').strip()
+
+                # Parse Text
+                i += 1
+                text_line = lines[i].strip() if i < len(lines) else ""
+                text = text_line.replace('Text: ', '').strip()
+
+                # Parse Visual
+                i += 1
+                visual_line = lines[i].strip() if i < len(lines) else ""
+                visual_prompt = visual_line.replace('Visual: ', '').strip()
+
+                # Collect multi-line visual descriptions
+                i += 1
+                while i < len(lines) and not lines[i].strip().startswith('[SCENE'):
+                    next_line = lines[i].strip()
+                    if next_line and not next_line.startswith('[SCENE'):
+                        visual_prompt += ' ' + next_line
+                    i += 1
+
+                scenes.append({
+                    'scene_id': scene_id,
+                    'duration': duration,
+                    'speaker': speaker,
+                    'text': text,
+                    'visual_prompt': visual_prompt.strip()
+                })
+                continue
+
+        i += 1
 
     return scenes
 

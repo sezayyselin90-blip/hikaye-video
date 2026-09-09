@@ -1,0 +1,716 @@
+[
+  {
+    "segment_id": 1,
+    "prompt": "Wide shot of a gritty concrete train bridge underpass, gray morning light, graffiti on pillars, steam rising from a nearby grate, tension in the air, cinematic 16:9.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 1,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 2,
+    "prompt": "Wide shot of a gritty concrete train bridge underpass, gray morning light, graffiti on pillars, steam rising from a nearby grate, tension in the air, cinematic 16:9.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 1,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 3,
+    "prompt": "Close-up of a large muscular man in an apron grabbing a well-dressed man's suit collar, buttons flying, muddy wet asphalt below, dramatic motion blur, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 2,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 4,
+    "prompt": "Close-up of a large muscular man in an apron grabbing a well-dressed man's suit collar, buttons flying, muddy wet asphalt below, dramatic motion blur, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 2,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 5,
+    "prompt": "Close-up of Ray's furious red face shouting, veins visible, gritted teeth, harsh morning light under the bridge, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 3,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 6,
+    "prompt": "Close-up of Ray's furious red face shouting, veins visible, gritted teeth, harsh morning light under the bridge, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 3,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 7,
+    "prompt": "Wide shot of diverse angry crowd forming a tight circle around two men under the bridge, tense body language, morning fog, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 4,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 8,
+    "prompt": "Wide shot of diverse angry crowd forming a tight circle around two men under the bridge, tense body language, morning fog, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 4,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 9,
+    "prompt": "Close-up of a rusty iron bar striking wet pavement with sparks, phones raised recording, red live indicators glowing, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 5,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 10,
+    "prompt": "Wide angle showing Marcus surrounded, suit disheveled, crowd judgmental faces, old homeless man on cardboard nearby, dramatic lighting, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 6,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 11,
+    "prompt": "Wide angle showing Marcus surrounded, suit disheveled, crowd judgmental faces, old homeless man on cardboard nearby, dramatic lighting, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 6,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 12,
+    "prompt": "Close-up of Marcus's calm face and his wristwatch showing 8:20, reflection of the crowd blurred behind him, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 7,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 13,
+    "prompt": "Close-up of Marcus's calm face and his wristwatch showing 8:20, reflection of the crowd blurred behind him, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 7,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 14,
+    "prompt": "Medium shot of Marcus's hand pulling a folded paper from his jacket, dropping it near an old man's feet on cardboard, rain-soaked ground, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 8,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 15,
+    "prompt": "Medium shot of Marcus's hand pulling a folded paper from his jacket, dropping it near an old man's feet on cardboard, rain-soaked ground, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 8,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 16,
+    "prompt": "Close-up portrait of an elderly homeless man in a worn green army parka, unkempt grey beard, huddled on cardboard, cold breath visible, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 9,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 17,
+    "prompt": "Close-up portrait of an elderly homeless man in a worn green army parka, unkempt grey beard, huddled on cardboard, cold breath visible, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 9,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 18,
+    "prompt": "Close-up of the old man's drooping right side of face, weak hand resting near a dented tin can with coins, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 10,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 19,
+    "prompt": "Close-up of the old man's drooping right side of face, weak hand resting near a dented tin can with coins, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 10,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 20,
+    "prompt": "Wide shot of a black Cadillac Escalade parking near the bridge underpass at dawn, headlights cutting through mist, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 11,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 21,
+    "prompt": "Wide shot of a black Cadillac Escalade parking near the bridge underpass at dawn, headlights cutting through mist, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 11,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 22,
+    "prompt": "Close-up of polished leather shoes stepping in mud, hand reaching into a tin can counting coins and crumpled bills, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 12,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 23,
+    "prompt": "Close-up of polished leather shoes stepping in mud, hand reaching into a tin can counting coins and crumpled bills, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 12,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 24,
+    "prompt": "Medium shot of Marcus dropping a paper and walking back to his SUV without looking back, old man watching silently, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 13,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 25,
+    "prompt": "Wide shot of neighborhood residents watching from windows and doorways with disgusted expressions as the SUV drives off, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 14,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 26,
+    "prompt": "Dynamic shot of two police cruisers skidding to a stop under the bridge, red and blue lights flashing, dust and mist swirling, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 15,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 27,
+    "prompt": "Dynamic shot of two police cruisers skidding to a stop under the bridge, red and blue lights flashing, dust and mist swirling, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 15,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 28,
+    "prompt": "Medium shot of two police officers exiting their cruiser, hands near holsters, serious expressions, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 16,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 29,
+    "prompt": "Close-up of Officer Miller shouting and gesturing at the crowd, arm outstretched, commanding presence, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 17,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 30,
+    "prompt": "Close-up of Ray pointing accusingly at Marcus while still gripping his collar, crowd nodding in agreement behind him, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 18,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 31,
+    "prompt": "Close-up of Ray pointing accusingly at Marcus while still gripping his collar, crowd nodding in agreement behind him, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 18,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 32,
+    "prompt": "Close-up of a police baton pressed against Marcus's chest, tense stand-off, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 19,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 33,
+    "prompt": "Medium shot of Miller commanding Marcus toward the police cruiser hood, stern expression, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 20,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 34,
+    "prompt": "Close-up of Marcus speaking calmly with a faint smile, pointing toward his Escalade, officers listening skeptically, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 21,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 35,
+    "prompt": "Close-up of Marcus speaking calmly with a faint smile, pointing toward his Escalade, officers listening skeptically, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 21,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 36,
+    "prompt": "Medium shot of Marcus's confident expression, crowd murmuring in background, tension building, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 22,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 37,
+    "prompt": "Wide shot of officer opening the SUV trunk and lifting out a heavy black briefcase, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 23,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 38,
+    "prompt": "Close-up of fingers entering a four-digit code into a briefcase lock, tense atmosphere, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 24,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 39,
+    "prompt": "Close-up of briefcase latches popping open, crowd leaning in with anticipation, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 25,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 40,
+    "prompt": "Close-up of briefcase latches popping open, crowd leaning in with anticipation, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 25,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 41,
+    "prompt": "Close-up of open briefcase showing red-sealed legal binders, gold-embossed stock certificates, and official court seals, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 26,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 42,
+    "prompt": "Close-up of open briefcase showing red-sealed legal binders, gold-embossed stock certificates, and official court seals, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 26,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 43,
+    "prompt": "Close-up of Officer Miller reading a legal document, his face shifting from stern to shocked, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 27,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 44,
+    "prompt": "Close-up of Officer Miller reading a legal document, his face shifting from stern to shocked, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 27,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 45,
+    "prompt": "Medium shot sequence of Miller's gaze shifting between documents, the old man, and Marcus, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 28,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 46,
+    "prompt": "Close-up of Miller's stunned face, documents trembling slightly in his hands, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 29,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 47,
+    "prompt": "Close-up of Ray's confused and defensive expression, still gripping Marcus loosely, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 30,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 48,
+    "prompt": "Wide shot of Marcus standing tall addressing the crowd, old man on cardboard beside him, dramatic morning light, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 31,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 49,
+    "prompt": "Wide shot of Marcus standing tall addressing the crowd, old man on cardboard beside him, dramatic morning light, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 31,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 50,
+    "prompt": "Close-up of Marcus pointing toward Joseph, crowd's shocked reaction beginning, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 32,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 51,
+    "prompt": "Wide shot of Chicago skyline with skyscrapers labeled subtly with \"Vance Logistics\" branding, crowd whispering in foreground, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 33,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 52,
+    "prompt": "Flashback shot of a lonely child sitting on an orphanage porch steps, gray sky, worn building, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 34,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 53,
+    "prompt": "Flashback shot of a lonely child sitting on an orphanage porch steps, gray sky, worn building, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 34,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 54,
+    "prompt": "Flashback montage: child receiving a winter coat, books, tuition envelope, hopeful expression, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 35,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 55,
+    "prompt": "Flashback montage: child receiving a winter coat, books, tuition envelope, hopeful expression, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 35,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 56,
+    "prompt": "Close-up of young adult Marcus in a law office, poring over old sealed documents, magnifying glass over a signature, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 36,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 57,
+    "prompt": "Close-up of young adult Marcus in a law office, poring over old sealed documents, magnifying glass over a signature, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 36,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 58,
+    "prompt": "Close-up of an old signature \"Joseph Vance\" on a faded document, candlelight glow, emotional reveal, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 37,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 59,
+    "prompt": "Close-up of an old signature \"Joseph Vance\" on a faded document, candlelight glow, emotional reveal, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 37,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 60,
+    "prompt": "Wide shot of the crowd frozen in stunned silence under the bridge, morning mist settling, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 38,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 61,
+    "prompt": "Flashback shot of Joseph collapsing in an office, luxury Vance Logistics headquarters interior, panic around him, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 39,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 62,
+    "prompt": "Flashback shot of Joseph collapsing in an office, luxury Vance Logistics headquarters interior, panic around him, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 39,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 63,
+    "prompt": "Flashback shot of a sharply dressed younger man, Carter, shaking hands with a doctor in a dim office, envelope of cash exchanged, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 40,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 64,
+    "prompt": "Flashback shot of a sharply dressed younger man, Carter, shaking hands with a doctor in a dim office, envelope of cash exchanged, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 40,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 65,
+    "prompt": "Flashback shot of Joseph being wheeled into an isolated facility, gates closing behind him, cold lighting, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 41,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 66,
+    "prompt": "Flashback shot of Joseph being wheeled into an isolated facility, gates closing behind him, cold lighting, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 41,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 67,
+    "prompt": "Flashback shot of Joseph wandering alone through dark city streets at night, disoriented, ending at the bridge underpass, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 42,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 68,
+    "prompt": "Flashback shot of Joseph wandering alone through dark city streets at night, disoriented, ending at the bridge underpass, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 42,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 69,
+    "prompt": "Close-up of Ray's face softening from anger to confusion, hand slowly releasing Marcus's collar, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 43,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 70,
+    "prompt": "Close-up of Marcus's somber gaze directed down at Joseph huddled on the cardboard, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 44,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 71,
+    "prompt": "Medium shot of Marcus speaking with authority, crowd listening intently, legal documents visible in his hand, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 45,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 72,
+    "prompt": "Medium shot of Marcus speaking with authority, crowd listening intently, legal documents visible in his hand, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 45,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 73,
+    "prompt": "Flashback shot of a courtroom, sharply dressed lawyers arguing, Marcus standing alone opposing them, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 46,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 74,
+    "prompt": "Flashback shot of a courtroom, sharply dressed lawyers arguing, Marcus standing alone opposing them, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 46,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 75,
+    "prompt": "Close-up of coins and crumpled bills being placed into an evidence bag stamped \"Retainer Fee - Legal Registry,\" 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 47,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 76,
+    "prompt": "Close-up of coins and crumpled bills being placed into an evidence bag stamped \"Retainer Fee - Legal Registry,\" 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 47,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 77,
+    "prompt": "Montage of a calendar with thirty days marked, each with a small note and receipt, legal ledger book filling up, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 48,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 78,
+    "prompt": "Montage of a calendar with thirty days marked, each with a small note and receipt, legal ledger book filling up, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 48,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 79,
+    "prompt": "Close-up of a newspaper headline reading \"Vance Empire Under Legal Siege,\" coins scattered beside it, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 49,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 80,
+    "prompt": "Close-up of a newspaper headline reading \"Vance Empire Under Legal Siege,\" coins scattered beside it, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 49,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 81,
+    "prompt": "Close-up of Marcus pulling out an official decree stamped with a fresh federal seal, gold ink glinting, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 50,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 82,
+    "prompt": "Close-up of Marcus pulling out an official decree stamped with a fresh federal seal, gold ink glinting, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 50,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 83,
+    "prompt": "Wide shot of Marcus holding the decree high for the crowd to see, dramatic lighting breaking through the bridge's shadow, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 51,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 84,
+    "prompt": "Wide shot of Marcus holding the decree high for the crowd to see, dramatic lighting breaking through the bridge's shadow, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 51,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 85,
+    "prompt": "Close-up of the decree's text highlighting \"$120,000,000 Estate Restored to Joseph Vance,\" crowd staring in disbelief, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 52,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 86,
+    "prompt": "Close-up of the decree's text highlighting \"$120,000,000 Estate Restored to Joseph Vance,\" crowd staring in disbelief, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 52,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 87,
+    "prompt": "Wide shot of Marcus kneeling in a muddy puddle before Joseph, suit soaked, humble posture, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 53,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 88,
+    "prompt": "Wide shot of Marcus kneeling in a muddy puddle before Joseph, suit soaked, humble posture, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 53,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 89,
+    "prompt": "Close-up of Marcus's hands gently closing Joseph's fingers around keys and papers, heads bowed together, emotional, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 54,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 90,
+    "prompt": "Close-up of Marcus's hands gently closing Joseph's fingers around keys and papers, heads bowed together, emotional, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 54,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 91,
+    "prompt": "Close-up of Marcus's tear-streaked face speaking softly to Joseph, warm light breaking through the bridge's gloom, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 55,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 92,
+    "prompt": "Close-up of Marcus's tear-streaked face speaking softly to Joseph, warm light breaking through the bridge's gloom, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 55,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 93,
+    "prompt": "Wide shot of the crowd in stunned silence, Ray looking down ashamed, young men lowering phones and wiping tears, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 56,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 94,
+    "prompt": "Close-up of Joseph's face, one side of his mouth curling into a weak but genuine smile, eyes glistening, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 57,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 95,
+    "prompt": "Close-up of Joseph's face, one side of his mouth curling into a weak but genuine smile, eyes glistening, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 57,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 96,
+    "prompt": "Extreme close-up of Joseph's eyes shining with emotion, reflection of Marcus kneeling before him, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 58,
+    "duration": 5.0
+  },
+  {
+    "segment_id": 97,
+    "prompt": "Medium shot of Marcus gently helping Joseph into the SUV, jacket draped over him, warm interior light, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 59,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 98,
+    "prompt": "Medium shot of Marcus gently helping Joseph into the SUV, jacket draped over him, warm interior light, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 59,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 99,
+    "prompt": "Wide shot of Marcus standing by the open car door, looking back at the humbled crowd, dawn light breaking through the bridge, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 60,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 100,
+    "prompt": "Wide shot of Marcus standing by the open car door, looking back at the humbled crowd, dawn light breaking through the bridge, 16:9 cinematic.\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 60,
+    "duration": 3.5
+  },
+  {
+    "segment_id": 101,
+    "prompt": "Wide aerial shot of the black Escalade driving away from the bridge toward the glowing Chicago skyline, crowd watching in silence, 16:9 cinematic. ================================================================================ NOTES: ================================================================================ \u2022 Full story coverage with complete narrative detail \u2022 Narrator voice: Warm, soothing American assistant \u2022 Each scene optimized for 4-7 second reading time \u2022 No condensing - all story elements preserved \u2022 Visual prompts ready for Flux Dev generation\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 61,
+    "duration": 3.0
+  },
+  {
+    "segment_id": 102,
+    "prompt": "Wide aerial shot of the black Escalade driving away from the bridge toward the glowing Chicago skyline, crowd watching in silence, 16:9 cinematic. ================================================================================ NOTES: ================================================================================ \u2022 Full story coverage with complete narrative detail \u2022 Narrator voice: Warm, soothing American assistant \u2022 Each scene optimized for 4-7 second reading time \u2022 No condensing - all story elements preserved \u2022 Visual prompts ready for Flux Dev generation\n\n    [Quality: 8K, cinematic, professional, high detail]\n    [Style: photorealistic, dramatic lighting, 16:9 aspect ratio]\n    [Technical: ultra sharp focus, color graded]",
+    "negative_prompt": "blurry, low quality, distorted, watermark",
+    "scene_id": 61,
+    "duration": 3.0
+  }
+]

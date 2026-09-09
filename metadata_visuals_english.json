@@ -1,0 +1,824 @@
+{
+  "total_scenes": 61,
+  "total_segments": 102,
+  "total_duration": 351.0,
+  "segments": [
+    {
+      "segment_id": 1,
+      "scene_id": 1,
+      "start_time": 0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of a gritty concrete train bridge underpass, gray morning light, graffiti on pillars, steam rising from a nearby grate, tension in the air, cinematic 16:9.",
+      "text_excerpt": "Under the concrete train bridge on Chicago's South..."
+    },
+    {
+      "segment_id": 2,
+      "scene_id": 1,
+      "start_time": 3.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of a gritty concrete train bridge underpass, gray morning light, graffiti on pillars, steam rising from a nearby grate, tension in the air, cinematic 16:9.",
+      "text_excerpt": "Under the concrete train bridge on Chicago's South..."
+    },
+    {
+      "segment_id": 3,
+      "scene_id": 2,
+      "start_time": 6.0,
+      "duration": 3.5,
+      "visual_prompt": "Close-up of a large muscular man in an apron grabbing a well-dressed man's suit collar, buttons flying, muddy wet asphalt below, dramatic motion blur, 16:9 cinematic.",
+      "text_excerpt": "Ray, the burly shopkeeper, grabbed Marcus by the c..."
+    },
+    {
+      "segment_id": 4,
+      "scene_id": 2,
+      "start_time": 9.5,
+      "duration": 3.5,
+      "visual_prompt": "Close-up of a large muscular man in an apron grabbing a well-dressed man's suit collar, buttons flying, muddy wet asphalt below, dramatic motion blur, 16:9 cinematic.",
+      "text_excerpt": "Ray, the burly shopkeeper, grabbed Marcus by the c..."
+    },
+    {
+      "segment_id": 5,
+      "scene_id": 3,
+      "start_time": 13.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Ray's furious red face shouting, veins visible, gritted teeth, harsh morning light under the bridge, 16:9 cinematic.",
+      "text_excerpt": "You sick piece of garbage! You think you can pull ..."
+    },
+    {
+      "segment_id": 6,
+      "scene_id": 3,
+      "start_time": 16.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Ray's furious red face shouting, veins visible, gritted teeth, harsh morning light under the bridge, 16:9 cinematic.",
+      "text_excerpt": "You sick piece of garbage! You think you can pull ..."
+    },
+    {
+      "segment_id": 7,
+      "scene_id": 4,
+      "start_time": 19.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of diverse angry crowd forming a tight circle around two men under the bridge, tense body language, morning fog, 16:9 cinematic.",
+      "text_excerpt": "A hostile crowd swarmed around them within seconds..."
+    },
+    {
+      "segment_id": 8,
+      "scene_id": 4,
+      "start_time": 22.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of diverse angry crowd forming a tight circle around two men under the bridge, tense body language, morning fog, 16:9 cinematic.",
+      "text_excerpt": "A hostile crowd swarmed around them within seconds..."
+    },
+    {
+      "segment_id": 9,
+      "scene_id": 5,
+      "start_time": 25.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of a rusty iron bar striking wet pavement with sparks, phones raised recording, red live indicators glowing, 16:9 cinematic.",
+      "text_excerpt": "One man slammed a rusty iron bar against the pavem..."
+    },
+    {
+      "segment_id": 10,
+      "scene_id": 6,
+      "start_time": 30.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide angle showing Marcus surrounded, suit disheveled, crowd judgmental faces, old homeless man on cardboard nearby, dramatic lighting, 16:9 cinematic.",
+      "text_excerpt": "To anyone watching, this was a clear-cut case of a..."
+    },
+    {
+      "segment_id": 11,
+      "scene_id": 6,
+      "start_time": 33.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide angle showing Marcus surrounded, suit disheveled, crowd judgmental faces, old homeless man on cardboard nearby, dramatic lighting, 16:9 cinematic.",
+      "text_excerpt": "To anyone watching, this was a clear-cut case of a..."
+    },
+    {
+      "segment_id": 12,
+      "scene_id": 7,
+      "start_time": 36.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Marcus's calm face and his wristwatch showing 8:20, reflection of the crowd blurred behind him, 16:9 cinematic.",
+      "text_excerpt": "Marcus, however, didn't flinch. There was no fear ..."
+    },
+    {
+      "segment_id": 13,
+      "scene_id": 7,
+      "start_time": 39.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Marcus's calm face and his wristwatch showing 8:20, reflection of the crowd blurred behind him, 16:9 cinematic.",
+      "text_excerpt": "Marcus, however, didn't flinch. There was no fear ..."
+    },
+    {
+      "segment_id": 14,
+      "scene_id": 8,
+      "start_time": 42.0,
+      "duration": 3.0,
+      "visual_prompt": "Medium shot of Marcus's hand pulling a folded paper from his jacket, dropping it near an old man's feet on cardboard, rain-soaked ground, 16:9 cinematic.",
+      "text_excerpt": "Ignoring the fist twisted into his collar, he reac..."
+    },
+    {
+      "segment_id": 15,
+      "scene_id": 8,
+      "start_time": 45.0,
+      "duration": 3.0,
+      "visual_prompt": "Medium shot of Marcus's hand pulling a folded paper from his jacket, dropping it near an old man's feet on cardboard, rain-soaked ground, 16:9 cinematic.",
+      "text_excerpt": "Ignoring the fist twisted into his collar, he reac..."
+    },
+    {
+      "segment_id": 16,
+      "scene_id": 9,
+      "start_time": 48.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up portrait of an elderly homeless man in a worn green army parka, unkempt grey beard, huddled on cardboard, cold breath visible, 16:9 cinematic.",
+      "text_excerpt": "The man on the ground was known locally as \"Silent..."
+    },
+    {
+      "segment_id": 17,
+      "scene_id": 9,
+      "start_time": 51.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up portrait of an elderly homeless man in a worn green army parka, unkempt grey beard, huddled on cardboard, cold breath visible, 16:9 cinematic.",
+      "text_excerpt": "The man on the ground was known locally as \"Silent..."
+    },
+    {
+      "segment_id": 18,
+      "scene_id": 10,
+      "start_time": 54.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of the old man's drooping right side of face, weak hand resting near a dented tin can with coins, 16:9 cinematic.",
+      "text_excerpt": "A severe stroke had paralyzed his right side, leav..."
+    },
+    {
+      "segment_id": 19,
+      "scene_id": 10,
+      "start_time": 57.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of the old man's drooping right side of face, weak hand resting near a dented tin can with coins, 16:9 cinematic.",
+      "text_excerpt": "A severe stroke had paralyzed his right side, leav..."
+    },
+    {
+      "segment_id": 20,
+      "scene_id": 11,
+      "start_time": 60.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of a black Cadillac Escalade parking near the bridge underpass at dawn, headlights cutting through mist, 16:9 cinematic.",
+      "text_excerpt": "For the past month, Marcus had pulled his black Ca..."
+    },
+    {
+      "segment_id": 21,
+      "scene_id": 11,
+      "start_time": 63.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of a black Cadillac Escalade parking near the bridge underpass at dawn, headlights cutting through mist, 16:9 cinematic.",
+      "text_excerpt": "For the past month, Marcus had pulled his black Ca..."
+    },
+    {
+      "segment_id": 22,
+      "scene_id": 12,
+      "start_time": 66.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of polished leather shoes stepping in mud, hand reaching into a tin can counting coins and crumpled bills, 16:9 cinematic.",
+      "text_excerpt": "Without caring about the filth ruining his polishe..."
+    },
+    {
+      "segment_id": 23,
+      "scene_id": 12,
+      "start_time": 69.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of polished leather shoes stepping in mud, hand reaching into a tin can counting coins and crumpled bills, 16:9 cinematic.",
+      "text_excerpt": "Without caring about the filth ruining his polishe..."
+    },
+    {
+      "segment_id": 24,
+      "scene_id": 13,
+      "start_time": 72.0,
+      "duration": 5.0,
+      "visual_prompt": "Medium shot of Marcus dropping a paper and walking back to his SUV without looking back, old man watching silently, 16:9 cinematic.",
+      "text_excerpt": "Drop an obscure document on the ground, and drive ..."
+    },
+    {
+      "segment_id": 25,
+      "scene_id": 14,
+      "start_time": 77.0,
+      "duration": 5.0,
+      "visual_prompt": "Wide shot of neighborhood residents watching from windows and doorways with disgusted expressions as the SUV drives off, 16:9 cinematic.",
+      "text_excerpt": "To the neighborhood, he was the definition of gree..."
+    },
+    {
+      "segment_id": 26,
+      "scene_id": 15,
+      "start_time": 82.0,
+      "duration": 3.0,
+      "visual_prompt": "Dynamic shot of two police cruisers skidding to a stop under the bridge, red and blue lights flashing, dust and mist swirling, 16:9 cinematic.",
+      "text_excerpt": "The sharp wail of sirens cut through the cold air...."
+    },
+    {
+      "segment_id": 27,
+      "scene_id": 15,
+      "start_time": 85.0,
+      "duration": 3.0,
+      "visual_prompt": "Dynamic shot of two police cruisers skidding to a stop under the bridge, red and blue lights flashing, dust and mist swirling, 16:9 cinematic.",
+      "text_excerpt": "The sharp wail of sirens cut through the cold air...."
+    },
+    {
+      "segment_id": 28,
+      "scene_id": 16,
+      "start_time": 88.0,
+      "duration": 5.0,
+      "visual_prompt": "Medium shot of two police officers exiting their cruiser, hands near holsters, serious expressions, 16:9 cinematic.",
+      "text_excerpt": "Officer Miller and his partner stepped out, hands ..."
+    },
+    {
+      "segment_id": 29,
+      "scene_id": 17,
+      "start_time": 93.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of Officer Miller shouting and gesturing at the crowd, arm outstretched, commanding presence, 16:9 cinematic.",
+      "text_excerpt": "Everyone back up! Move away! Move away!"
+    },
+    {
+      "segment_id": 30,
+      "scene_id": 18,
+      "start_time": 98.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Ray pointing accusingly at Marcus while still gripping his collar, crowd nodding in agreement behind him, 16:9 cinematic.",
+      "text_excerpt": "Officer, arrest this psycho! He's been mugging thi..."
+    },
+    {
+      "segment_id": 31,
+      "scene_id": 18,
+      "start_time": 101.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Ray pointing accusingly at Marcus while still gripping his collar, crowd nodding in agreement behind him, 16:9 cinematic.",
+      "text_excerpt": "Officer, arrest this psycho! He's been mugging thi..."
+    },
+    {
+      "segment_id": 32,
+      "scene_id": 19,
+      "start_time": 104.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of a police baton pressed against Marcus's chest, tense stand-off, 16:9 cinematic.",
+      "text_excerpt": "Miller drew his baton, pressing it against Marcus'..."
+    },
+    {
+      "segment_id": 33,
+      "scene_id": 20,
+      "start_time": 109.0,
+      "duration": 5.0,
+      "visual_prompt": "Medium shot of Miller commanding Marcus toward the police cruiser hood, stern expression, 16:9 cinematic.",
+      "text_excerpt": "Hands on the hood. Right now."
+    },
+    {
+      "segment_id": 34,
+      "scene_id": 21,
+      "start_time": 114.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Marcus speaking calmly with a faint smile, pointing toward his Escalade, officers listening skeptically, 16:9 cinematic.",
+      "text_excerpt": "Don't rush to cuff me, officer. Before you do anyt..."
+    },
+    {
+      "segment_id": 35,
+      "scene_id": 21,
+      "start_time": 117.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Marcus speaking calmly with a faint smile, pointing toward his Escalade, officers listening skeptically, 16:9 cinematic.",
+      "text_excerpt": "Don't rush to cuff me, officer. Before you do anyt..."
+    },
+    {
+      "segment_id": 36,
+      "scene_id": 22,
+      "start_time": 120.0,
+      "duration": 5.0,
+      "visual_prompt": "Medium shot of Marcus's confident expression, crowd murmuring in background, tension building, 16:9 cinematic.",
+      "text_excerpt": "When you open it, everyone here will understand wh..."
+    },
+    {
+      "segment_id": 37,
+      "scene_id": 23,
+      "start_time": 125.0,
+      "duration": 5.0,
+      "visual_prompt": "Wide shot of officer opening the SUV trunk and lifting out a heavy black briefcase, 16:9 cinematic.",
+      "text_excerpt": "Miller frowned, signaling his partner. The second ..."
+    },
+    {
+      "segment_id": 38,
+      "scene_id": 24,
+      "start_time": 130.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of fingers entering a four-digit code into a briefcase lock, tense atmosphere, 16:9 cinematic.",
+      "text_excerpt": "Code is one, nine, nine, four."
+    },
+    {
+      "segment_id": 39,
+      "scene_id": 25,
+      "start_time": 135.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of briefcase latches popping open, crowd leaning in with anticipation, 16:9 cinematic.",
+      "text_excerpt": "The latches snapped open. The crowd expected bundl..."
+    },
+    {
+      "segment_id": 40,
+      "scene_id": 25,
+      "start_time": 138.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of briefcase latches popping open, crowd leaning in with anticipation, 16:9 cinematic.",
+      "text_excerpt": "The latches snapped open. The crowd expected bundl..."
+    },
+    {
+      "segment_id": 41,
+      "scene_id": 26,
+      "start_time": 141.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of open briefcase showing red-sealed legal binders, gold-embossed stock certificates, and official court seals, 16:9 cinematic.",
+      "text_excerpt": "Instead, the case revealed thick red-sealed binder..."
+    },
+    {
+      "segment_id": 42,
+      "scene_id": 26,
+      "start_time": 144.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of open briefcase showing red-sealed legal binders, gold-embossed stock certificates, and official court seals, 16:9 cinematic.",
+      "text_excerpt": "Instead, the case revealed thick red-sealed binder..."
+    },
+    {
+      "segment_id": 43,
+      "scene_id": 27,
+      "start_time": 147.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Officer Miller reading a legal document, his face shifting from stern to shocked, 16:9 cinematic.",
+      "text_excerpt": "Miller picked up the top file, scanning the openin..."
+    },
+    {
+      "segment_id": 44,
+      "scene_id": 27,
+      "start_time": 150.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Officer Miller reading a legal document, his face shifting from stern to shocked, 16:9 cinematic.",
+      "text_excerpt": "Miller picked up the top file, scanning the openin..."
+    },
+    {
+      "segment_id": 45,
+      "scene_id": 28,
+      "start_time": 153.0,
+      "duration": 5.0,
+      "visual_prompt": "Medium shot sequence of Miller's gaze shifting between documents, the old man, and Marcus, 16:9 cinematic.",
+      "text_excerpt": "He looked from the documents to the shivering old ..."
+    },
+    {
+      "segment_id": 46,
+      "scene_id": 29,
+      "start_time": 158.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of Miller's stunned face, documents trembling slightly in his hands, 16:9 cinematic.",
+      "text_excerpt": "This... how is this possible?"
+    },
+    {
+      "segment_id": 47,
+      "scene_id": 30,
+      "start_time": 163.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of Ray's confused and defensive expression, still gripping Marcus loosely, 16:9 cinematic.",
+      "text_excerpt": "What is it, officer? Are they forged papers?"
+    },
+    {
+      "segment_id": 48,
+      "scene_id": 31,
+      "start_time": 168.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of Marcus standing tall addressing the crowd, old man on cardboard beside him, dramatic morning light, 16:9 cinematic.",
+      "text_excerpt": "You all think you know who this man is. You call h..."
+    },
+    {
+      "segment_id": 49,
+      "scene_id": 31,
+      "start_time": 171.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of Marcus standing tall addressing the crowd, old man on cardboard beside him, dramatic morning light, 16:9 cinematic.",
+      "text_excerpt": "You all think you know who this man is. You call h..."
+    },
+    {
+      "segment_id": 50,
+      "scene_id": 32,
+      "start_time": 174.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of Marcus pointing toward Joseph, crowd's shocked reaction beginning, 16:9 cinematic.",
+      "text_excerpt": "But not a single one of you knows his real name. T..."
+    },
+    {
+      "segment_id": 51,
+      "scene_id": 33,
+      "start_time": 179.0,
+      "duration": 5.0,
+      "visual_prompt": "Wide shot of Chicago skyline with skyscrapers labeled subtly with \"Vance Logistics\" branding, crowd whispering in foreground, 16:9 cinematic.",
+      "text_excerpt": "A collective murmur rippled through the crowd. Van..."
+    },
+    {
+      "segment_id": 52,
+      "scene_id": 34,
+      "start_time": 184.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of a lonely child sitting on an orphanage porch steps, gray sky, worn building, 16:9 cinematic.",
+      "text_excerpt": "Thirty years ago, there was an abandoned kid in a ..."
+    },
+    {
+      "segment_id": 53,
+      "scene_id": 34,
+      "start_time": 187.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of a lonely child sitting on an orphanage porch steps, gray sky, worn building, 16:9 cinematic.",
+      "text_excerpt": "Thirty years ago, there was an abandoned kid in a ..."
+    },
+    {
+      "segment_id": 54,
+      "scene_id": 35,
+      "start_time": 190.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback montage: child receiving a winter coat, books, tuition envelope, hopeful expression, 16:9 cinematic.",
+      "text_excerpt": "But one day, an anonymous trust was set up. Every ..."
+    },
+    {
+      "segment_id": 55,
+      "scene_id": 35,
+      "start_time": 193.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback montage: child receiving a winter coat, books, tuition envelope, hopeful expression, 16:9 cinematic.",
+      "text_excerpt": "But one day, an anonymous trust was set up. Every ..."
+    },
+    {
+      "segment_id": 56,
+      "scene_id": 36,
+      "start_time": 196.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of young adult Marcus in a law office, poring over old sealed documents, magnifying glass over a signature, 16:9 cinematic.",
+      "text_excerpt": "The donor's name was sealed. It took me years afte..."
+    },
+    {
+      "segment_id": 57,
+      "scene_id": 36,
+      "start_time": 199.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of young adult Marcus in a law office, poring over old sealed documents, magnifying glass over a signature, 16:9 cinematic.",
+      "text_excerpt": "The donor's name was sealed. It took me years afte..."
+    },
+    {
+      "segment_id": 58,
+      "scene_id": 37,
+      "start_time": 202.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of an old signature \"Joseph Vance\" on a faded document, candlelight glow, emotional reveal, 16:9 cinematic.",
+      "text_excerpt": "That signature belonged to Joseph Vance\u2014a man who ..."
+    },
+    {
+      "segment_id": 59,
+      "scene_id": 37,
+      "start_time": 205.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of an old signature \"Joseph Vance\" on a faded document, candlelight glow, emotional reveal, 16:9 cinematic.",
+      "text_excerpt": "That signature belonged to Joseph Vance\u2014a man who ..."
+    },
+    {
+      "segment_id": 60,
+      "scene_id": 38,
+      "start_time": 208.0,
+      "duration": 5.0,
+      "visual_prompt": "Wide shot of the crowd frozen in stunned silence under the bridge, morning mist settling, 16:9 cinematic.",
+      "text_excerpt": "The street fell dead silent."
+    },
+    {
+      "segment_id": 61,
+      "scene_id": 39,
+      "start_time": 213.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of Joseph collapsing in an office, luxury Vance Logistics headquarters interior, panic around him, 16:9 cinematic.",
+      "text_excerpt": "So what happened to him? Two years ago, he suffere..."
+    },
+    {
+      "segment_id": 62,
+      "scene_id": 39,
+      "start_time": 216.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of Joseph collapsing in an office, luxury Vance Logistics headquarters interior, panic around him, 16:9 cinematic.",
+      "text_excerpt": "So what happened to him? Two years ago, he suffere..."
+    },
+    {
+      "segment_id": 63,
+      "scene_id": 40,
+      "start_time": 219.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of a sharply dressed younger man, Carter, shaking hands with a doctor in a dim office, envelope of cash exchanged, 16:9 cinematic.",
+      "text_excerpt": "And his only son, Carter Vance, took advantage of ..."
+    },
+    {
+      "segment_id": 64,
+      "scene_id": 40,
+      "start_time": 222.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of a sharply dressed younger man, Carter, shaking hands with a doctor in a dim office, envelope of cash exchanged, 16:9 cinematic.",
+      "text_excerpt": "And his only son, Carter Vance, took advantage of ..."
+    },
+    {
+      "segment_id": 65,
+      "scene_id": 41,
+      "start_time": 225.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of Joseph being wheeled into an isolated facility, gates closing behind him, cold lighting, 16:9 cinematic.",
+      "text_excerpt": "He seized full power of attorney, took every share..."
+    },
+    {
+      "segment_id": 66,
+      "scene_id": 41,
+      "start_time": 228.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of Joseph being wheeled into an isolated facility, gates closing behind him, cold lighting, 16:9 cinematic.",
+      "text_excerpt": "He seized full power of attorney, took every share..."
+    },
+    {
+      "segment_id": 67,
+      "scene_id": 42,
+      "start_time": 231.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of Joseph wandering alone through dark city streets at night, disoriented, ending at the bridge underpass, 16:9 cinematic.",
+      "text_excerpt": "Joseph managed to escape, but confused and unable ..."
+    },
+    {
+      "segment_id": 68,
+      "scene_id": 42,
+      "start_time": 234.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of Joseph wandering alone through dark city streets at night, disoriented, ending at the bridge underpass, 16:9 cinematic.",
+      "text_excerpt": "Joseph managed to escape, but confused and unable ..."
+    },
+    {
+      "segment_id": 69,
+      "scene_id": 43,
+      "start_time": 237.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of Ray's face softening from anger to confusion, hand slowly releasing Marcus's collar, 16:9 cinematic.",
+      "text_excerpt": "Then... why were you taking his money every day?"
+    },
+    {
+      "segment_id": 70,
+      "scene_id": 44,
+      "start_time": 242.0,
+      "duration": 5.0,
+      "visual_prompt": "Close-up of Marcus's somber gaze directed down at Joseph huddled on the cardboard, 16:9 cinematic.",
+      "text_excerpt": "Marcus looked down at the old man."
+    },
+    {
+      "segment_id": 71,
+      "scene_id": 45,
+      "start_time": 247.0,
+      "duration": 3.5,
+      "visual_prompt": "Medium shot of Marcus speaking with authority, crowd listening intently, legal documents visible in his hand, 16:9 cinematic.",
+      "text_excerpt": "Under Illinois state law, if a client is legally d..."
+    },
+    {
+      "segment_id": 72,
+      "scene_id": 45,
+      "start_time": 250.5,
+      "duration": 3.5,
+      "visual_prompt": "Medium shot of Marcus speaking with authority, crowd listening intently, legal documents visible in his hand, 16:9 cinematic.",
+      "text_excerpt": "Under Illinois state law, if a client is legally d..."
+    },
+    {
+      "segment_id": 73,
+      "scene_id": 46,
+      "start_time": 254.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of a courtroom, sharply dressed lawyers arguing, Marcus standing alone opposing them, 16:9 cinematic.",
+      "text_excerpt": "Carter's high-priced legal team tried to dismiss m..."
+    },
+    {
+      "segment_id": 74,
+      "scene_id": 46,
+      "start_time": 257.0,
+      "duration": 3.0,
+      "visual_prompt": "Flashback shot of a courtroom, sharply dressed lawyers arguing, Marcus standing alone opposing them, 16:9 cinematic.",
+      "text_excerpt": "Carter's high-priced legal team tried to dismiss m..."
+    },
+    {
+      "segment_id": 75,
+      "scene_id": 47,
+      "start_time": 260.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of coins and crumpled bills being placed into an evidence bag stamped \"Retainer Fee - Legal Registry,\" 16:9 cinematic.",
+      "text_excerpt": "Every single morning, I took those quarters and cr..."
+    },
+    {
+      "segment_id": 76,
+      "scene_id": 47,
+      "start_time": 263.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of coins and crumpled bills being placed into an evidence bag stamped \"Retainer Fee - Legal Registry,\" 16:9 cinematic.",
+      "text_excerpt": "Every single morning, I took those quarters and cr..."
+    },
+    {
+      "segment_id": 77,
+      "scene_id": 48,
+      "start_time": 266.0,
+      "duration": 3.0,
+      "visual_prompt": "Montage of a calendar with thirty days marked, each with a small note and receipt, legal ledger book filling up, 16:9 cinematic.",
+      "text_excerpt": "And every paper I left was a filed court declarati..."
+    },
+    {
+      "segment_id": 78,
+      "scene_id": 48,
+      "start_time": 269.0,
+      "duration": 3.0,
+      "visual_prompt": "Montage of a calendar with thirty days marked, each with a small note and receipt, legal ledger book filling up, 16:9 cinematic.",
+      "text_excerpt": "And every paper I left was a filed court declarati..."
+    },
+    {
+      "segment_id": 79,
+      "scene_id": 49,
+      "start_time": 272.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of a newspaper headline reading \"Vance Empire Under Legal Siege,\" coins scattered beside it, 16:9 cinematic.",
+      "text_excerpt": "His greedy son never anticipated that the pocket c..."
+    },
+    {
+      "segment_id": 80,
+      "scene_id": 49,
+      "start_time": 275.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of a newspaper headline reading \"Vance Empire Under Legal Siege,\" coins scattered beside it, 16:9 cinematic.",
+      "text_excerpt": "His greedy son never anticipated that the pocket c..."
+    },
+    {
+      "segment_id": 81,
+      "scene_id": 50,
+      "start_time": 278.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Marcus pulling out an official decree stamped with a fresh federal seal, gold ink glinting, 16:9 cinematic.",
+      "text_excerpt": "Marcus reached into the briefcase, pulling out a h..."
+    },
+    {
+      "segment_id": 82,
+      "scene_id": 50,
+      "start_time": 281.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Marcus pulling out an official decree stamped with a fresh federal seal, gold ink glinting, 16:9 cinematic.",
+      "text_excerpt": "Marcus reached into the briefcase, pulling out a h..."
+    },
+    {
+      "segment_id": 83,
+      "scene_id": 51,
+      "start_time": 284.0,
+      "duration": 3.5,
+      "visual_prompt": "Wide shot of Marcus holding the decree high for the crowd to see, dramatic lighting breaking through the bridge's shadow, 16:9 cinematic.",
+      "text_excerpt": "At 7:45 this morning, the appellate court issued i..."
+    },
+    {
+      "segment_id": 84,
+      "scene_id": 51,
+      "start_time": 287.5,
+      "duration": 3.5,
+      "visual_prompt": "Wide shot of Marcus holding the decree high for the crowd to see, dramatic lighting breaking through the bridge's shadow, 16:9 cinematic.",
+      "text_excerpt": "At 7:45 this morning, the appellate court issued i..."
+    },
+    {
+      "segment_id": 85,
+      "scene_id": 52,
+      "start_time": 291.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of the decree's text highlighting \"$120,000,000 Estate Restored to Joseph Vance,\" crowd staring in disbelief, 16:9 cinematic.",
+      "text_excerpt": "The entire 120-million-dollar estate, the company ..."
+    },
+    {
+      "segment_id": 86,
+      "scene_id": 52,
+      "start_time": 294.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of the decree's text highlighting \"$120,000,000 Estate Restored to Joseph Vance,\" crowd staring in disbelief, 16:9 cinematic.",
+      "text_excerpt": "The entire 120-million-dollar estate, the company ..."
+    },
+    {
+      "segment_id": 87,
+      "scene_id": 53,
+      "start_time": 297.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of Marcus kneeling in a muddy puddle before Joseph, suit soaked, humble posture, 16:9 cinematic.",
+      "text_excerpt": "Marcus dropped to both knees directly into the mud..."
+    },
+    {
+      "segment_id": 88,
+      "scene_id": 53,
+      "start_time": 300.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide shot of Marcus kneeling in a muddy puddle before Joseph, suit soaked, humble posture, 16:9 cinematic.",
+      "text_excerpt": "Marcus dropped to both knees directly into the mud..."
+    },
+    {
+      "segment_id": 89,
+      "scene_id": 54,
+      "start_time": 303.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Marcus's hands gently closing Joseph's fingers around keys and papers, heads bowed together, emotional, 16:9 cinematic.",
+      "text_excerpt": "He took Joseph's trembling, weathered hands into h..."
+    },
+    {
+      "segment_id": 90,
+      "scene_id": 54,
+      "start_time": 306.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Marcus's hands gently closing Joseph's fingers around keys and papers, heads bowed together, emotional, 16:9 cinematic.",
+      "text_excerpt": "He took Joseph's trembling, weathered hands into h..."
+    },
+    {
+      "segment_id": 91,
+      "scene_id": 55,
+      "start_time": 309.0,
+      "duration": 3.5,
+      "visual_prompt": "Close-up of Marcus's tear-streaked face speaking softly to Joseph, warm light breaking through the bridge's gloom, 16:9 cinematic.",
+      "text_excerpt": "The battle is over, Mr. Vance. Thirty years ago, y..."
+    },
+    {
+      "segment_id": 92,
+      "scene_id": 55,
+      "start_time": 312.5,
+      "duration": 3.5,
+      "visual_prompt": "Close-up of Marcus's tear-streaked face speaking softly to Joseph, warm light breaking through the bridge's gloom, 16:9 cinematic.",
+      "text_excerpt": "The battle is over, Mr. Vance. Thirty years ago, y..."
+    },
+    {
+      "segment_id": 93,
+      "scene_id": 56,
+      "start_time": 316.0,
+      "duration": 5.0,
+      "visual_prompt": "Wide shot of the crowd in stunned silence, Ray looking down ashamed, young men lowering phones and wiping tears, 16:9 cinematic.",
+      "text_excerpt": "Not a sound came from the crowd. Ray stood frozen ..."
+    },
+    {
+      "segment_id": 94,
+      "scene_id": 57,
+      "start_time": 321.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Joseph's face, one side of his mouth curling into a weak but genuine smile, eyes glistening, 16:9 cinematic.",
+      "text_excerpt": "On the cardboard, Joseph looked up into Marcus's f..."
+    },
+    {
+      "segment_id": 95,
+      "scene_id": 57,
+      "start_time": 324.0,
+      "duration": 3.0,
+      "visual_prompt": "Close-up of Joseph's face, one side of his mouth curling into a weak but genuine smile, eyes glistening, 16:9 cinematic.",
+      "text_excerpt": "On the cardboard, Joseph looked up into Marcus's f..."
+    },
+    {
+      "segment_id": 96,
+      "scene_id": 58,
+      "start_time": 327.0,
+      "duration": 5.0,
+      "visual_prompt": "Extreme close-up of Joseph's eyes shining with emotion, reflection of Marcus kneeling before him, 16:9 cinematic.",
+      "text_excerpt": "No words were spoken, but the light in his eyes he..."
+    },
+    {
+      "segment_id": 97,
+      "scene_id": 59,
+      "start_time": 332.0,
+      "duration": 3.0,
+      "visual_prompt": "Medium shot of Marcus gently helping Joseph into the SUV, jacket draped over him, warm interior light, 16:9 cinematic.",
+      "text_excerpt": "Marcus helped the old man up, draped his own suit ..."
+    },
+    {
+      "segment_id": 98,
+      "scene_id": 59,
+      "start_time": 335.0,
+      "duration": 3.0,
+      "visual_prompt": "Medium shot of Marcus gently helping Joseph into the SUV, jacket draped over him, warm interior light, 16:9 cinematic.",
+      "text_excerpt": "Marcus helped the old man up, draped his own suit ..."
+    },
+    {
+      "segment_id": 99,
+      "scene_id": 60,
+      "start_time": 338.0,
+      "duration": 3.5,
+      "visual_prompt": "Wide shot of Marcus standing by the open car door, looking back at the humbled crowd, dawn light breaking through the bridge, 16:9 cinematic.",
+      "text_excerpt": "Never judge a situation solely by what your eyes s..."
+    },
+    {
+      "segment_id": 100,
+      "scene_id": 60,
+      "start_time": 341.5,
+      "duration": 3.5,
+      "visual_prompt": "Wide shot of Marcus standing by the open car door, looking back at the humbled crowd, dawn light breaking through the bridge, 16:9 cinematic.",
+      "text_excerpt": "Never judge a situation solely by what your eyes s..."
+    },
+    {
+      "segment_id": 101,
+      "scene_id": 61,
+      "start_time": 345.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide aerial shot of the black Escalade driving away from the bridge toward the glowing Chicago skyline, crowd watching in silence, 16:9 cinematic. ================================================================================ NOTES: ================================================================================ \u2022 Full story coverage with complete narrative detail \u2022 Narrator voice: Warm, soothing American assistant \u2022 Each scene optimized for 4-7 second reading time \u2022 No condensing - all story elements preserved \u2022 Visual prompts ready for Flux Dev generation",
+      "text_excerpt": "The black SUV pulled away quietly toward the city ..."
+    },
+    {
+      "segment_id": 102,
+      "scene_id": 61,
+      "start_time": 348.0,
+      "duration": 3.0,
+      "visual_prompt": "Wide aerial shot of the black Escalade driving away from the bridge toward the glowing Chicago skyline, crowd watching in silence, 16:9 cinematic. ================================================================================ NOTES: ================================================================================ \u2022 Full story coverage with complete narrative detail \u2022 Narrator voice: Warm, soothing American assistant \u2022 Each scene optimized for 4-7 second reading time \u2022 No condensing - all story elements preserved \u2022 Visual prompts ready for Flux Dev generation",
+      "text_excerpt": "The black SUV pulled away quietly toward the city ..."
+    }
+  ],
+  "batches": 11
+}
