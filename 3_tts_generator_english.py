@@ -77,7 +77,7 @@ def generate_tts_audio(text: str, voice_id: str, output_path: str) -> bool:
         return False
 
 def main():
-    scenario_path = "scripts/hikaye_english_full.txt"
+    scenario_path = "scripts/hikaye_13min_full.txt"
     voice_id = "AIJ0ViCZ83NSXLNIERjD"  # Warm agent voice
 
     if not Path(scenario_path).exists():
