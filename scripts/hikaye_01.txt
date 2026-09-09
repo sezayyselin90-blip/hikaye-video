@@ -1,0 +1,59 @@
+================================================================================
+HIKAYE: TAM SENARYO VE SES KONFIGÜRASYONU
+================================================================================
+
+KARAKTERLER VE SESLERİ:
+--------------------------------------------------------------------------------
+  • Narrator
+    - Ses: James
+    - Açıklama: Professional narrator voice
+
+  • Marcus
+    - Ses: Bella
+    - Açıklama: Lawyer with calm, determined tone
+
+  • Ray
+    - Ses: Grace
+    - Açıklama: Angry shopkeeper, aggressive tone
+
+
+================================================================================
+SAHNELER
+================================================================================
+
+[SAHNE 1] (5s)
+Konuşan: Narrator
+Metni: Under a concrete Chicago train bridge, Ray grabbed Marcus violently by his Italian suit collar. Buttons scattered across muddy asphalt.
+Görsel: Tense confrontation under concrete train bridge, angry shopkeeper grabbing lawyer, crowd forming
+
+--------------------------------------------------------------------------------
+
+[SAHNE 2] (5s)
+Konuşan: Ray
+Metni: Ray shouted: You think you can rob this helpless mute man every morning? Wearing a thousand-dollar suit while you steal from the homeless!
+Görsel: Angry crowd gathering, phone cameras, rage and tension, urban scene
+
+--------------------------------------------------------------------------------
+
+[SAHNE 3] (5s)
+Konuşan: Marcus
+Metni: Marcus remained eerily calm. He said: Before you judge me, open my car trunk. Inside is a black briefcase with code one-nine-nine-four.
+Görsel: Police arriving, black Cadillac, briefcase revelation moment
+
+--------------------------------------------------------------------------------
+
+[SAHNE 4] (6s)
+Konuşan: Narrator
+Metni: Inside were thousands of court documents. Officer Miller's expression changed. Marcus revealed the shocking truth.
+Görsel: Official court documents, legal victory, justice imagery
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+NOTLAR:
+================================================================================
+• Her sahnenin metni TTS (text-to-speech) ile seslendirilecektir
+• Konuşan kişi (Speaker) karakterin sesini belirler
+• Metin içinde düzenlemeler yapmak istersen bu dosyayı düzenle
+• Bitirince 'devam et' komutunu kullan

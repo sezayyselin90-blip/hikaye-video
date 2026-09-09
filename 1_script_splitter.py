@@ -169,6 +169,48 @@ def save_scenes(scenes_data: dict, output_path: str = "scenes.json"):
         json.dump(scenes_data, f, ensure_ascii=False, indent=2)
     print(f"✓ Sahneler kaydedildi: {output_path}")
 
+def save_script_as_txt(scenes_data: dict, output_path: str = "scripts/hikaye_01.txt"):
+    """Senaryoyu düz metin formatında kaydediyor (manuel düzenleme için)"""
+    from pathlib import Path
+
+    # Klasörü oluştur
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write("=" * 80 + "\n")
+        f.write("HIKAYE: TAM SENARYO VE SES KONFIGÜRASYONU\n")
+        f.write("=" * 80 + "\n\n")
+
+        # Karakterler
+        f.write("KARAKTERLER VE SESLERİ:\n")
+        f.write("-" * 80 + "\n")
+        for char, config in scenes_data.get('characters', {}).items():
+            f.write(f"  • {char}\n")
+            f.write(f"    - Ses: {config['voice_name']}\n")
+            f.write(f"    - Açıklama: {config['description']}\n\n")
+
+        f.write("\n" + "=" * 80 + "\n")
+        f.write("SAHNELER\n")
+        f.write("=" * 80 + "\n\n")
+
+        # Sahneler
+        for scene in scenes_data.get('scenes', []):
+            f.write(f"[SAHNE {scene['scene_id']}] ({scene['duration_seconds']}s)\n")
+            f.write(f"Konuşan: {scene['speaker']}\n")
+            f.write(f"Metni: {scene['voiceover_text']}\n")
+            f.write(f"Görsel: {scene['image_prompt']}\n")
+            f.write("\n" + "-" * 80 + "\n\n")
+
+        f.write("\n" + "=" * 80 + "\n")
+        f.write("NOTLAR:\n")
+        f.write("=" * 80 + "\n")
+        f.write("• Her sahnenin metni TTS (text-to-speech) ile seslendirilecektir\n")
+        f.write("• Konuşan kişi (Speaker) karakterin sesini belirler\n")
+        f.write("• Metin içinde düzenlemeler yapmak istersen bu dosyayı düzenle\n")
+        f.write("• Bitirince 'devam et' komutunu kullan\n")
+
+    return output_path
+
 def main():
     story_path = "story.txt"
 
@@ -189,9 +231,30 @@ def main():
     print("\n💾 Sahneler kaydediliyor...")
     save_scenes(scenes_data)
 
+    # TXT formatında senaryo kaydet
+    print("\n📝 Senaryo metin formatında kaydediliyor...")
+    txt_path = save_script_as_txt(scenes_data)
+
+    print("\n" + "=" * 80)
+    print("✅ SENARYO HAZIR!")
+    print("=" * 80)
+    print(f"\n📄 Senaryo dosyası: {txt_path}")
     print("\n📋 Sahne Özeti:")
     for scene in scenes_data['scenes']:
         print(f"  Sahne {scene['scene_id']}: {scene['duration_seconds']}s - {scene['voiceover_text'][:40]}...")
+
+    print("\n" + "=" * 80)
+    print("⏸️  MANUEL CHECKPOINT - DÜZENLEMESİ TAMAMLA")
+    print("=" * 80)
+    print(f"\n📖 Dosyayı aç: {txt_path}")
+    print("\n✏️  Yapabilecekleriniz:")
+    print("   • Sahne metinlerini düzenle")
+    print("   • Karakterleri değiştir")
+    print("   • Ses tariflerini güncelle")
+    print("   • Görsel açıklamalarını iyileştir")
+    print("\n✅ Hazır olunca bana 'devam et' komutunu gönder")
+    print("   Pipeline '{0}' dosyasını okuyup video üretmeye başlayacak")
+    print("=" * 80 + "\n")
 
 if __name__ == "__main__":
     main()
