@@ -104,7 +104,7 @@ def generate_flux_prompt(visual_prompt: str) -> str:
     return prompt
 
 def main():
-    scenario_path = "scripts/hikaye_english_full.txt"
+    scenario_path = "scripts/hikaye_13min_full.txt"
 
     if not Path(scenario_path).exists():
         print(f"Error: {scenario_path} not found!")

@@ -75,20 +75,17 @@ Total must equal exactly 13 minutes (156 × 5 seconds)."""
 
     try:
         print("🔄 Claude API generating 156-segment 13-minute scenario...")
-        print("   (This will take 1-2 minutes)...\n")
+        print("   (This will take 2-3 minutes)...\n")
 
-        response = client.messages.create(
+        response_text = ""
+        with client.messages.stream(
             model="claude-sonnet-5",
-            max_tokens=16000,
+            max_tokens=24000,
             system=system_prompt,
             messages=[{"role": "user", "content": user_message}]
-        )
-
-        response_text = None
-        for block in response.content:
-            if hasattr(block, 'text'):
-                response_text = block.text
-                break
+        ) as stream:
+            for text in stream.text_stream:
+                response_text += text
 
         if not response_text:
             raise ValueError("No text response from API")
