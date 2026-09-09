@@ -4,17 +4,21 @@ HIKAYE: TAM SENARYO VE SES KONFIGÜRASYONU
 
 KARAKTERLER VE SESLERİ:
 --------------------------------------------------------------------------------
-  • Narrator
-    - Ses: James
-    - Açıklama: Professional narrator voice
-
   • Marcus
-    - Ses: Bella
-    - Açıklama: Lawyer with calm, determined tone
+    - Ses: James
+    - Açıklama: Mid-30s attorney in an expensive Italian suit, calm and composed, hides deep compassion behind a cold, calculated exterior.
 
   • Ray
     - Ses: Grace
-    - Açıklama: Angry shopkeeper, aggressive tone
+    - Açıklama: Burly middle-aged shopkeeper, short-tempered but protective, wears a stained apron.
+
+  • Officer Miller
+    - Ses: Rachel
+    - Açıklama: Middle-aged Chicago police officer, stern and authoritative, crisp uniform.
+
+  • Narrator
+    - Ses: James
+    - Açıklama: Deep, professional storyteller voice narrating the events.
 
 
 ================================================================================
@@ -23,29 +27,288 @@ SAHNELER
 
 [SAHNE 1] (5s)
 Konuşan: Narrator
-Metni: Under a concrete Chicago train bridge, Ray grabbed Marcus violently by his Italian suit collar. Buttons scattered across muddy asphalt.
-Görsel: Tense confrontation under concrete train bridge, angry shopkeeper grabbing lawyer, crowd forming
+Metni: Under the concrete train bridge on Chicago's South Side, hell broke loose in an instant.
+Görsel: 16:9 cinematic wide shot of a gritty concrete train bridge underpass on Chicago's South Side, grey morning light, damp asphalt, graffiti on pillars, tense atmosphere, photorealistic
 
 --------------------------------------------------------------------------------
 
 [SAHNE 2] (5s)
-Konuşan: Ray
-Metni: Ray shouted: You think you can rob this helpless mute man every morning? Wearing a thousand-dollar suit while you steal from the homeless!
-Görsel: Angry crowd gathering, phone cameras, rage and tension, urban scene
-
---------------------------------------------------------------------------------
-
-[SAHNE 3] (5s)
-Konuşan: Marcus
-Metni: Marcus remained eerily calm. He said: Before you judge me, open my car trunk. Inside is a black briefcase with code one-nine-nine-four.
-Görsel: Police arriving, black Cadillac, briefcase revelation moment
-
---------------------------------------------------------------------------------
-
-[SAHNE 4] (6s)
 Konuşan: Narrator
-Metni: Inside were thousands of court documents. Officer Miller's expression changed. Marcus revealed the shocking truth.
-Görsel: Official court documents, legal victory, justice imagery
+Metni: Ray, the burly shopkeeper, grabbed Marcus by the collar of his expensive Italian suit so violently that the buttons popped and scattered across the muddy asphalt.
+Görsel: 16:9 close-up action shot, burly man in stained apron grabbing well-dressed businessman's suit collar violently, buttons flying, muddy asphalt background, dramatic lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 3] (6s)
+Konuşan: Ray
+Metni: You sick piece of garbage! You think you can pull up here every morning in that luxury ride and rob this poor, mute man of his last pennies?
+Görsel: 16:9 shot of furious burly man, face flushed red with anger, shouting at a calm businessman under a bridge, intense expression, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 4] (5s)
+Konuşan: Ray
+Metni: Wearing a thousand-dollar suit while you steal from the helpless!
+Görsel: 16:9 close-up of angry shopkeeper's face, veins bulging, pointing accusingly at businessman in torn suit, harsh daylight, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 5] (5s)
+Konuşan: Narrator
+Metni: A hostile crowd swarmed around them within seconds—gas station clerks, couriers, and neighborhood youths forming a human wall.
+Görsel: 16:9 wide shot of a diverse angry crowd forming a circle around two men under a bridge, tense body language, urban Chicago backdrop, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 6] (5s)
+Konuşan: Narrator
+Metni: One man slammed a rusty iron bar against the pavement, while bystanders pointed their phone cameras directly at Marcus, streaming live.
+Görsel: 16:9 dynamic shot of a man striking an iron bar on concrete, sparks of tension, several people holding up phones recording, photorealistic, dramatic contrast
+
+--------------------------------------------------------------------------------
+
+[SAHNE 7] (5s)
+Konuşan: Narrator
+Metni: To anyone watching, this was a clear-cut case of an arrogant millionaire terrorizing a defenseless homeless man in broad daylight.
+Görsel: 16:9 shot from a phone camera POV, businessman surrounded by hostile crowd, homeless man cowering nearby, dramatic street scene, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 8] (5s)
+Konuşan: Narrator
+Metni: Marcus, however, didn't flinch. There was no fear in his eyes. With unsettling calm, he glanced down at his watch. Exactly 8:20 AM.
+Görsel: 16:9 close-up of a composed businessman checking an expensive wristwatch amid chaos, calm expression, blurred angry crowd in background, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 9] (5s)
+Konuşan: Narrator
+Metni: Ignoring the fist twisted into his collar, he reached inside his jacket, pulled out a folded, faded sheet of paper, and dropped it before the frail old man.
+Görsel: 16:9 shot of businessman's hand pulling a folded paper from his jacket, dropping it near an old man sitting on cardboard, gritty street texture, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 10] (6s)
+Konuşan: Narrator
+Metni: The man on the ground was known locally as 'Silent Joe'—a tattered green army parka, an unkempt grey beard, huddled against the cold.
+Görsel: 16:9 portrait of an elderly homeless man in a worn green army parka, grey beard, sitting on wet cardboard under a bridge, weathered face, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 11] (5s)
+Konuşan: Narrator
+Metni: A severe stroke had paralyzed his right side, leaving him unable to speak beyond muffled sounds. Before him sat a dented tin can for spare change.
+Görsel: 16:9 close-up of a dented tin can with coins on wet pavement, elderly man's paralyzed hand resting nearby, somber lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 12] (6s)
+Konuşan: Narrator
+Metni: For the past month, Marcus had pulled his black Cadillac Escalade to this spot every morning, walking up without care for his polished shoes.
+Görsel: 16:9 shot of a black Cadillac Escalade parked near the bridge, businessman stepping out onto muddy ground, early morning light, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 13] (6s)
+Konuşan: Narrator
+Metni: He would count the coins and bills in Joe's can, pocket every cent, drop an obscure document, and drive away without a word. To the neighborhood, he was greed itself.
+Görsel: 16:9 shot of businessman crouching by tin can, pocketing coins, dropping a paper, cold detached expression, cinematic lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 14] (5s)
+Konuşan: Narrator
+Metni: The sharp wail of sirens cut through the cold air. Two police cruisers screeched to a halt under the bridge.
+Görsel: 16:9 dynamic shot of two police cruisers with flashing lights screeching to a stop under a bridge, dust and motion blur, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 15] (5s)
+Konuşan: Officer Miller
+Metni: Everyone back up! Move away! Move away!
+Görsel: 16:9 shot of a stern police officer stepping out of a cruiser, hand near holster, shouting at the crowd, tense atmosphere, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 16] (6s)
+Konuşan: Ray
+Metni: Officer, arrest this psycho! He's been mugging this mute veteran day after day! We've all seen it!
+Görsel: 16:9 shot of shopkeeper gripping businessman's collar, pointing at him while shouting toward approaching police officer, chaotic crowd, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 17] (5s)
+Konuşan: Officer Miller
+Metni: Hands on the hood. Right now.
+Görsel: 16:9 close-up of police officer pressing a baton against businessman's chest, stern commanding expression, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 18] (6s)
+Konuşan: Marcus
+Metni: Don't rush to cuff me, officer. Before you do anything, you need to open the trunk of my car. There's a locked black briefcase inside.
+Görsel: 16:9 shot of composed businessman calmly speaking to officer, faint smile, pointing toward his parked SUV, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 19] (5s)
+Konuşan: Marcus
+Metni: When you open it, everyone here will understand who the real criminal is.
+Görsel: 16:9 close-up of Marcus's calm confident face, intense eye contact with the officer, dramatic lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 20] (5s)
+Konuşan: Narrator
+Metni: The second officer retrieved a heavy black briefcase from the trunk. 'Code is one, nine, nine, four,' Marcus said calmly.
+Görsel: 16:9 shot of police officer lifting a heavy black briefcase from an SUV trunk, tense crowd watching, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 21] (5s)
+Konuşan: Narrator
+Metni: The latches snapped open. Instead of stolen cash, the case revealed thick red-sealed binders and official court documents.
+Görsel: 16:9 close-up of an open briefcase revealing red-sealed legal binders and court documents, dramatic reveal lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 22] (5s)
+Konuşan: Officer Miller
+Metni: Miller's stern expression vanished, replaced by sheer shock. 'This... how is this possible?'
+Görsel: 16:9 close-up of police officer's shocked face while holding legal documents, crowd blurred in background, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 23] (5s)
+Konuşan: Ray
+Metni: What is it, officer? Are they forged papers?
+Görsel: 16:9 shot of confused shopkeeper stepping closer, looking at the documents with disbelief, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 24] (6s)
+Konuşan: Marcus
+Metni: You all think you know this man. You call him 'Silent Joe.' But not one of you knows his real name. This man is Joseph Vance.
+Görsel: 16:9 wide shot of Marcus standing tall, addressing the silent crowd, pointing toward the old man, dramatic afternoon light, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 25] (5s)
+Konuşan: Narrator
+Metni: A collective murmur rippled through the crowd. Vance Logistics owned half the skyline in downtown Chicago.
+Görsel: 16:9 shot of shocked crowd whispering to each other, Chicago skyline visible in the distance, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 26] (6s)
+Konuşan: Marcus
+Metni: Thirty years ago, an abandoned orphan had no money, no future. Then an anonymous trust paid for every school fee, every winter coat, through law school.
+Görsel: 16:9 nostalgic flashback shot of a young boy in a worn coat standing outside an old Chicago orphanage building, soft golden light, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 27] (6s)
+Konuşan: Marcus
+Metni: It took me years after passing the bar to trace that signature. It belonged to Joseph Vance—a man who gave away half his fortune in absolute secret.
+Görsel: 16:9 close-up of Marcus's emotional face, voice wavering, holding an old legal document with faded signature, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 28] (6s)
+Konuşan: Marcus
+Metni: Two years ago, he suffered a massive stroke. His own son, Carter Vance, bribed doctors to declare him incompetent and seized total control.
+Görsel: 16:9 dramatic shot of a sinister-looking businessman in a boardroom, shadowy lighting, symbolizing corporate betrayal, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 29] (5s)
+Konuşan: Marcus
+Metni: Joseph escaped, but confused and unable to speak, he ended up right here on the streets.
+Görsel: 16:9 shot of elderly Joseph wandering alone through dark city streets at night, disoriented expression, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 30] (5s)
+Konuşan: Ray
+Metni: Then... why were you taking his money every day?
+Görsel: 16:9 close-up of Ray's face softening, confusion replacing anger, looking at Marcus, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 31] (6s)
+Konuşan: Marcus
+Metni: Under Illinois law, an outside attorney can only intervene if a direct attorney-client relationship is verified by paid consideration—a retained fee paid by the client himself.
+Görsel: 16:9 shot of Marcus speaking with authority, gesturing toward legal documents, crowd listening intently, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 32] (6s)
+Konuşan: Marcus
+Metni: Every morning, those quarters and crumpled bills were legally binding retainer fees. Every paper I left was a filed court declaration.
+Görsel: 16:9 close-up of coins and crumpled bills in Marcus's palm, court papers scattered nearby, dramatic lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 33] (6s)
+Konuşan: Marcus
+Metni: At 7:45 this morning, the appellate court overturned the fraudulent guardianship. Arrest warrants were issued for Carter Vance and his conspirators.
+Görsel: 16:9 shot of a federal court document with official seal, close-up, dramatic reveal lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 34] (5s)
+Konuşan: Marcus
+Metni: The entire 120-million-dollar estate, the company shares, and the properties have been fully restored to their rightful owner.
+Görsel: 16:9 wide shot of Marcus holding the decree high, crowd staring in stunned silence, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 35] (6s)
+Konuşan: Narrator
+Metni: Marcus dropped to his knees in the mud, taking Joseph's trembling hands into his own, pressing the decree and keys into his palms.
+Görsel: 16:9 emotional shot of Marcus kneeling before elderly Joseph, holding his hands gently, court papers and keys visible, soft emotional lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 36] (6s)
+Konuşan: Marcus
+Metni: The battle is over, Mr. Vance. Thirty years ago, you gave me a life. Today, I brought yours back. You will never sleep in the cold again.
+Görsel: 16:9 close-up of Marcus's tearful face speaking softly to Joseph, warm emotional lighting, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 37] (5s)
+Konuşan: Narrator
+Metni: Not a sound came from the crowd. Ray stood frozen in profound shame. The youths lowered their phones, wiping their eyes.
+Görsel: 16:9 wide shot of a silent, emotional crowd, some wiping tears, phones lowered, soft overcast light, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 38] (5s)
+Konuşan: Narrator
+Metni: Joseph looked up into Marcus's face. His paralyzed lips twitched into a fragile smile—gratitude louder than any courtroom victory.
+Görsel: 16:9 close-up of elderly Joseph's face, faint smile forming, eyes glistening with emotion, soft golden light, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 39] (6s)
+Konuşan: Narrator
+Metni: Marcus helped the old man up, draped his own suit jacket over Joe's shoulders, and guided him gently into the leather seat of the Escalade.
+Görsel: 16:9 shot of Marcus helping elderly Joseph into a black Cadillac Escalade, draping his jacket over him, tender gesture, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 40] (6s)
+Konuşan: Marcus
+Metni: Never judge a situation solely by what your eyes see. Sometimes, taking three quarters from a man's cup is the only way to buy back his stolen life.
+Görsel: 16:9 close-up of Marcus looking back at the crowd before closing the car door, resolute expression, warm sunset light, photorealistic
+
+--------------------------------------------------------------------------------
+
+[SAHNE 41] (5s)
+Konuşan: Narrator
+Metni: The black SUV pulled away quietly toward the city lights, leaving behind a humbled crowd and the quiet triumph of justice.
+Görsel: 16:9 wide cinematic shot of a black Cadillac Escalade driving away into the glowing Chicago skyline at dusk, crowd watching silently behind, photorealistic
 
 --------------------------------------------------------------------------------
 

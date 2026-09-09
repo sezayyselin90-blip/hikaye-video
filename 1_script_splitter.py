@@ -71,26 +71,36 @@ Notes:
 - Same character = same voice throughout (consistency)
 - Narrator = James voice for non-dialogue text"""
 
-    user_message = f"""Break this story into scenes with character voices:
+    user_message = f"""Break this story into 30-35 scenes covering approximately 13-14 minutes of narration:
 
 {story}
 
 Instructions:
-1. Identify all characters who speak
-2. Assign each a unique English voice (consistency across scenes)
-3. Include speaker name in each scene
-4. Narrator (non-dialogue) = James voice
-5. Return valid JSON with character voice mapping"""
+1. Create a COMPLETE scene breakdown covering the entire story
+2. Each scene should be 4-6 seconds of narration when read aloud
+3. Aim for exactly 30-35 scenes (total ~13-14 minutes)
+4. Identify all unique characters
+5. Assign each character a unique English voice (consistency required)
+6. Most scenes should use Narrator (James voice) - use character voices sparingly for direct dialogue
+7. Include speaker name in each scene
+8. Return valid JSON with all scenes and character voice mapping"""
 
     try:
         response = client.messages.create(
-            model="claude-3-5-sonnet-20241022",
-            max_tokens=2000,
+            model="claude-sonnet-5",
+            max_tokens=8000,
             system=system_prompt,
             messages=[{"role": "user", "content": user_message}]
         )
 
-        response_text = response.content[0].text
+        response_text = None
+        for block in response.content:
+            if hasattr(block, 'text'):
+                response_text = block.text
+                break
+
+        if not response_text:
+            raise ValueError("API'den metin yanıtı alınamadı")
 
         try:
             json_start = response_text.find('{')
